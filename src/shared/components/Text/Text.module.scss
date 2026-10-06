@@ -1,0 +1,31 @@
+/** Стили текста: пять вариантов тона и размера плюс центрирование. */
+
+@use '@styles/typography' as *;
+
+.body {
+  @extend %body;
+}
+
+.lead {
+  @extend %body-lg;
+  color: var(--text);
+}
+
+.muted {
+  @extend %body;
+  color: var(--text-muted);
+}
+
+.dim {
+  @extend %body;
+  font-size: var(--fs-sm);
+  color: var(--text-dim);
+}
+
+.mono {
+  @extend %mono-value;
+}
+
+.center {
+  text-align: center;
+}

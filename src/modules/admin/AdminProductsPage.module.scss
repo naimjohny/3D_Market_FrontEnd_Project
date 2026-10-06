@@ -1,0 +1,49 @@
+/** Стили страницы каталога админки: шапка с кнопкой создания и таблица продуктов. */
+
+@use '@styles/mixins' as *;
+@use 'admin' as *;
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  @extend %admin-head;
+}
+
+.headRow {
+  @include flex-between;
+  gap: var(--space-16);
+  flex-wrap: wrap;
+}
+
+.loader {
+  @extend %admin-loader;
+}
+
+.tableWrap {
+  @extend %admin-table-wrap;
+}
+
+.table {
+  @extend %admin-table;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-size: var(--fs-mono);
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.sum {
+  font-family: var(--font-mono);
+  font-size: var(--fs-mono);
+  white-space: nowrap;
+}
+
+.actions {
+  display: flex;
+  gap: var(--space-8);
+}

@@ -1,0 +1,30 @@
+# FORMA³
+
+> FORMA³ is a custom 3D modeling studio. Our main focus is commissioned work: we build custom 3D models for games, brands, advertising, AR/VR and 3D printing — with a concept, moodboard and exact quote delivered within 48 hours, starting from 9,000 ₽ (~$99). We also sell a catalog of ready-made 3D models with commercial licenses (GLB, FBX, OBJ) and offer a free in-browser 3D viewer.
+
+The site is available in 11 languages via URL prefix (ru, en, es, de, pl, tg, kk, fa, ar, ko, zh). English pages are linked below; swap the `/en` prefix for any other locale code.
+
+## Services
+
+- [Order a custom 3D model](https://forma3d-studio.netlify.app/en/order): the core service — brief in 5 minutes, online price calculator, concept in 48 hours. Hard-surface and organic modeling, characters with rigging, product visualization, optimized 3D for the web (Three.js/WebGL).
+- [Catalog of ready-made models](https://forma3d-studio.netlify.app/en/works): 10 ready 3D models with commercial licenses, each viewable in 3D right in the browser.
+- [3D Lab — free online viewer](https://forma3d-studio.netlify.app/en/lab): open GLB, GLTF, FBX, OBJ and STL files locally in the browser; files never leave the device.
+
+## Main pages by language
+
+- [English](https://forma3d-studio.netlify.app/en)
+- [Русский](https://forma3d-studio.netlify.app/ru)
+- [Español](https://forma3d-studio.netlify.app/es)
+- [Deutsch](https://forma3d-studio.netlify.app/de)
+- [Polski](https://forma3d-studio.netlify.app/pl)
+- [Тоҷикӣ](https://forma3d-studio.netlify.app/tg)
+- [Қазақша](https://forma3d-studio.netlify.app/kk)
+- [فارسی](https://forma3d-studio.netlify.app/fa)
+- [العربية](https://forma3d-studio.netlify.app/ar)
+- [한국어](https://forma3d-studio.netlify.app/ko)
+- [中文](https://forma3d-studio.netlify.app/zh)
+
+## Optional
+
+- [Full studio details](https://forma3d-studio.netlify.app/llms-full.txt): services, process, pricing guide and the complete catalog with prices.
+- [Sitemap](https://forma3d-studio.netlify.app/sitemap.xml): all 154 localized pages.

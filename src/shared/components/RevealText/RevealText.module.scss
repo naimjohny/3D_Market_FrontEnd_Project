@@ -1,0 +1,24 @@
+/** Стили reveal-текста: маска-слово и каскадный выезд строк с задержкой по --i. */
+
+.reveal {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.word {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.inner {
+  display: inline-block;
+  transform: translateY(110%);
+  transition: transform var(--dur-slow) var(--ease-expo);
+  transition-delay: calc(var(--i, 0) * 45ms);
+  will-change: transform;
+}
+
+.visible .inner {
+  transform: translateY(0);
+}

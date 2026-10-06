@@ -1,0 +1,580 @@
+{
+  "GENERAL": {
+    "BRAND": "FORMA³",
+    "TAGLINE": "三维物体工作室",
+    "NAV": {
+      "HOME": "首页",
+      "WORKS": "模型库",
+      "ORDER": "定制",
+      "LAB": "3D 实验室"
+    },
+    "ACTIONS": {
+      "VIEW": "查看",
+      "VIEW_PRODUCT": "查看产品",
+      "ADD_TO_CART": "加入购物车",
+      "IN_CART": "已在购物车",
+      "ORDER_PROJECT": "聊聊项目",
+      "SEND": "发送",
+      "CLOSE": "关闭",
+      "BACK": "返回",
+      "ALL": "全部",
+      "TRY": "试一试",
+      "RESET": "重置",
+      "GET_STARTED": "开始吧",
+      "TO_CATALOG": "去模型库",
+      "MENU": "菜单"
+    },
+    "HUD": {
+      "RENDERER": "渲染器",
+      "SCROLL": "滚动",
+      "LOADING": "加载中",
+      "READY": "就绪",
+      "WEBGL": "WEBGL2",
+      "FPS": "FPS",
+      "DRAG": "拖动旋转物体",
+      "LOCAL": "本地",
+      "COORDS": "55.751 N / 37.618 E",
+      "CODE": "FRM-3D"
+    },
+    "FOOTER": {
+      "RIGHTS": "© {{year}} FORMA³ — 版权所有",
+      "MADE": "诞生于三维空间",
+      "CONTACTS": "联系方式",
+      "MENU": "导航",
+      "SOCIALS": "社交媒体",
+      "EMAIL": "hello@forma3d.studio",
+      "LEGAL_OFFER": "服务条款",
+      "LEGAL_PRIVACY": "隐私政策",
+      "LEGAL_REFUNDS": "退款政策",
+      "CTA_TITLE": "聊聊你的项目？",
+      "CTA_BUTTON": "提交需求"
+    }
+  },
+  "HOME": {
+    "HERO": {
+      "LABEL": "三维物体工作室",
+      "TITLE_TOP": "让人忍不住",
+      "TITLE_GRAD": "想伸手触碰的物体",
+      "SUBTITLE": "我们不画图片——我们塑造物质。为游戏、品牌和产品打造的 3D 模型，就活在你的浏览器里。",
+      "CTA_PRIMARY": "定制 3D",
+      "CTA_SECONDARY": "浏览模型库",
+      "HINT": "可以上手——转一转这个物体"
+    },
+    "MANIFESTO": {
+      "LABEL": "宣言",
+      "TEXT": "平面易被遗忘，立体历久弥新。我们把创意变成能卖货、能惊艳、能实时运行的三维物体。"
+    },
+    "FEATURED": {
+      "LABEL": "精选作品",
+      "PRODUCT": "产品",
+      "INFO": "详情",
+      "ALL_WORKS": "全部作品"
+    },
+    "SERVICES": {
+      "LABEL": "我们的服务",
+      "TITLE": "每个任务，都有属于它的维度",
+      "ITEMS": {
+        "MODELING": {
+          "TITLE": "3D 建模",
+          "DESC": "Hard-surface 与有机形态：从草图到带 PBR 贴图和 UV 展开的成品模型。"
+        },
+        "PRODUCT": {
+          "TITLE": "产品可视化",
+          "DESC": "照片级渲染与交互式配置器，比照片更能带货。"
+        },
+        "CHARACTERS": {
+          "TITLE": "角色与生物",
+          "DESC": "风格化与写实角色，绑定完毕——随时可进入动画和游戏。"
+        },
+        "WEB3D": {
+          "TITLE": "网页 3D",
+          "DESC": "为网站打造的轻量优化场景：Three.js、WebGL，稳定 60 fps。"
+        }
+      }
+    },
+    "PROCESS": {
+      "LABEL": "流程",
+      "TITLE": "从需求到模型——三步搞定",
+      "STEPS": {
+        "S1": {
+          "NUM": "01",
+          "TITLE": "需求与概念",
+          "DESC": "沟通任务、收集参考。48 小时内交付概念稿、情绪板和精确报价。"
+        },
+        "S2": {
+          "NUM": "02",
+          "TITLE": "建模",
+          "DESC": "雕刻、贴图、打光。每两三天同步进度——修改随时跟上。"
+        },
+        "S3": {
+          "NUM": "03",
+          "TITLE": "收尾与交付",
+          "DESC": "优化、导出全部格式、集成到网站或引擎。文件永远归你。"
+        }
+      }
+    },
+    "STATS": {
+      "MODELS": "个已交付模型",
+      "POLYGONS": "百万多边形雕刻量",
+      "HOURS": "小时出首版概念",
+      "FPS": "fps 浏览器实时运行"
+    },
+    "CTA": {
+      "TITLE": "你的项目还缺一个维度",
+      "SUBTITLE": "写信给我们——48 小时内免费奉上 3D 概念稿。",
+      "BUTTON": "提交需求"
+    },
+    "MARQUEE": "建模 · 可视化 · 动画 · 配置器 · WEBGL · 角色 · LOW-POLY ·"
+  },
+  "WORKS": {
+    "TITLE": "物体目录",
+    "SUBTITLE": "自带商用授权的成品 3D 模型。每一个都能在这里直接旋转——它们是真的。",
+    "COUNT": "共 {{count}} 件",
+    "EMPTY": "这个分类暂时是空的",
+    "CATEGORIES": {
+      "ALL": "全部",
+      "ART": "艺术",
+      "TECH": "科技",
+      "CHARACTER": "角色",
+      "ENVIRONMENT": "场景",
+      "ARCHITECTURE": "建筑"
+    }
+  },
+  "PRODUCT": {
+    "IN_STOCK": "有货 · 文件即时交付",
+    "SPECS": "参数",
+    "POLYCOUNT": "多边形数",
+    "FORMATS": "格式",
+    "TEXTURES": "贴图",
+    "RIGGED": "绑定",
+    "ANIMATED": "动画",
+    "LICENSE": "授权",
+    "LICENSE_VALUE": "商用授权，免版税",
+    "COLOR": "颜色",
+    "FINISH": "材质",
+    "FINISHES": {
+      "GLOSS": "高光",
+      "MATTE": "哑光",
+      "CHROME": "镀铬",
+      "GOLD": "黄金",
+      "GLASS": "玻璃"
+    },
+    "RELATED": "相似物体",
+    "YES": "是",
+    "NO": "否",
+    "DRAG_HINT": "拖动旋转 · 滚轮缩放",
+    "NOT_FOUND": "未找到该物体"
+  },
+  "ORDER": {
+    "TITLE": "为你打造专属 3D",
+    "SUBTITLE": "物体、角色、场景或配置器——发来需求，48 小时内我们带着概念稿和精确报价回来。",
+    "CALC": {
+      "LABEL": "计算器",
+      "TITLE": "估算预算",
+      "CATEGORY": "物体类型",
+      "DETAIL": "细节程度",
+      "DETAILS": {
+        "LOW": "Low-poly",
+        "MID": "中等",
+        "HIGH": "High-poly"
+      },
+      "COUNT": "物体数量",
+      "DEADLINE": "工期（周）",
+      "ESTIMATE": "预估价格",
+      "NOTE": "最终价格在需求确认后给出，通常误差不超过 ±15%。"
+    },
+    "FORM": {
+      "LABEL": "需求单",
+      "TITLE": "提交需求",
+      "NAME": "姓名",
+      "EMAIL": "邮箱",
+      "CONTACT": "Telegram 或电话（选填）",
+      "MESSAGE": "需要做什么？",
+      "MESSAGE_PLACEHOLDER": "描述物体、风格、使用场景，附上参考链接……",
+      "FILE": "附加参考图或 3D 文件",
+      "FILE_HINT": "GLB、GLTF、FBX、OBJ、STL——文件会直接在这里以 3D 打开",
+      "SUBMIT": "发送需求",
+      "SENDING": "发送中……",
+      "SUCCESS_TITLE": "需求已飞出！",
+      "SUCCESS_TEXT": "我们会在 48 小时内回复——通常快得多。请留意邮箱。",
+      "ERROR": "发送失败，请重试。",
+      "REQUIRED": "必填项",
+      "INVALID_EMAIL": "邮箱格式不正确"
+    },
+    "FAQ": {
+      "LABEL": "问答",
+      "TITLE": "常见问题",
+      "ITEMS": {
+        "PRICE": {
+          "Q": "一个 3D 模型多少钱？",
+          "A": "取决于复杂度：low-poly 物体 9 000 ₽ 起，精细 hard-surface 25 000 ₽ 起，带绑定的角色 60 000 ₽ 起。上方计算器可供参考，确切价格在需求确认后给出。"
+        },
+        "TIME": {
+          "Q": "工期多久？",
+          "A": "简单物体 3–5 天，产品模型 1–2 周，角色或场景 2–4 周。首版概念 48 小时内就能看到。"
+        },
+        "FORMATS": {
+          "Q": "交付哪些格式？",
+          "A": "GLB/GLTF、FBX、OBJ、STL、BLEND——外加贴图源文件。网页端还会进一步优化：Draco 压缩、KTX2 贴图。"
+        },
+        "EDITS": {
+          "Q": "价格包含几轮修改？",
+          "A": "包含三轮修改。我们每两三天同步一次进度，所以修改通常又小又快。"
+        },
+        "RIGHTS": {
+          "Q": "版权归谁？",
+          "A": "归你。付款后我们移交完整的免版税商用权利。模型库中的模型可用于任何项目。"
+        }
+      }
+    }
+  },
+  "LAB": {
+    "TITLE": "3D 实验室",
+    "SUBTITLE": "拖入你的文件——GLB、GLTF、FBX、OBJ 或 STL——从各个角度端详它。一切都在本地进行，文件不会被上传到任何地方。",
+    "DROP": "把 3D 文件拖到这里",
+    "OR": "或",
+    "BROWSE": "选择文件",
+    "DEMO": "演示模型",
+    "SETTINGS": {
+      "TITLE": "场景",
+      "ENV": "环境",
+      "WIREFRAME": "线框",
+      "AUTOROTATE": "自动旋转",
+      "GRID": "地面",
+      "SHADOWS": "阴影"
+    },
+    "ENVS": {
+      "STUDIO": "摄影棚",
+      "NIGHT": "夜晚",
+      "NEON": "霓虹",
+      "SUNSET": "日落"
+    },
+    "STATS": {
+      "TITLE": "模型",
+      "VERTICES": "顶点",
+      "TRIANGLES": "三角面",
+      "MESHES": "网格",
+      "MATERIALS": "材质",
+      "SIZE": "大小",
+      "FORMAT": "格式"
+    },
+    "SCREENSHOT": "截图",
+    "RESET_VIEW": "重置视角",
+    "ERROR_FORMAT": "不支持该格式。请使用 GLB、GLTF、FBX、OBJ 或 STL。",
+    "ERROR_LOAD": "无法读取模型——文件已损坏或格式不规范。",
+    "PRIVACY": "文件仅在你的浏览器本地处理，绝不会被上传。"
+  },
+  "CART": {
+    "TITLE": "购物车",
+    "EMPTY": "还是空的",
+    "EMPTY_HINT": "去模型库逛逛——那里很好看",
+    "TOTAL": "合计",
+    "CHECKOUT": "去结算",
+    "REMOVE": "移除",
+    "CHECKOUT_TITLE": "订单结算",
+    "CHECKOUT_NOTE": "留下联系方式——将打开银行卡支付，或由我们把账单发到你的邮箱。",
+    "SUCCESS_TITLE": "订单已收到！",
+    "SUCCESS_TEXT": "订单已收到！我们会通过你填写的邮箱联系你，发送文件和付款详情。",
+    "PAY": "确认订单"
+  },
+  "PRODUCTS": {
+    "CHROME_TORUS": {
+      "NAME": "铬之结",
+      "DESC": "液态铬打造的无缝环面结。在 hero 区、封面和片头里令人过目难忘。"
+    },
+    "NEBULA_CRYSTAL": {
+      "NAME": "星云水晶",
+      "DESC": "折射如真实玻璃的多面水晶。为品牌与奖杯而生的奢华。"
+    },
+    "LIQUID_BLOB": {
+      "NAME": "液态金属",
+      "DESC": "一滴会呼吸、会流转的活金属。大胆落地页的完美背景。"
+    },
+    "LOWPOLY_PLANET": {
+      "NAME": "行星 Terra-9",
+      "DESC": "带光环与卫星的 low-poly 行星。随时可用于游戏、仪表盘和太空故事。"
+    },
+    "CYBER_HELMET": {
+      "NAME": "赛博头盔·浪人",
+      "DESC": "赛博朋克风头盔，配霓虹面罩。由精准的 hard-surface 形体构成。"
+    },
+    "BAUHAUS_COLUMN": {
+      "NAME": "包豪斯立柱",
+      "DESC": "由纯粹几何形体组成的建筑构成。严谨如一份宣言。"
+    },
+    "SPIRAL_SCULPT": {
+      "NAME": "斐波那契螺旋",
+      "DESC": "遵循黄金比例的参数化螺旋。让人想一直盯着看的数学。"
+    },
+    "MECH_DRONE": {
+      "NAME": "无人机·黄蜂",
+      "DESC": "旋翼可动的紧凑型战斗无人机。任何角度都清晰可读的机甲设计。"
+    },
+    "ABSTRACT_WAVE": {
+      "NAME": "安培波",
+      "DESC": "脉动波浪组成的力场——随时间起伏的活背景。纯正合成波氛围。"
+    },
+    "GOLDEN_SHELL": {
+      "NAME": "黄金贝壳",
+      "DESC": "抛光黄金的参数化贝壳。以金属铸就的自然形态。"
+    }
+  },
+  "ADMIN": {
+    "NAV": {
+      "ORDERS": "订单",
+      "PRODUCTS": "目录",
+      "STATS": "统计",
+      "SETTINGS": "设置",
+      "LOGOUT": "退出登录"
+    },
+    "LOGIN": {
+      "LABEL": "管理后台",
+      "TITLE": "登录",
+      "EMAIL": "邮箱",
+      "PASSWORD": "密码",
+      "SUBMIT": "登录",
+      "ERROR_AUTH": "邮箱或密码错误",
+      "ERROR_GENERIC": "登录失败，请重试。"
+    },
+    "ORDERS": {
+      "TITLE": "订单",
+      "ALL": "全部",
+      "EMPTY": "暂无订单",
+      "TH_ID": "ID",
+      "TH_KIND": "类型",
+      "TH_NAME": "姓名",
+      "TH_EMAIL": "邮箱",
+      "TH_TOTAL": "金额",
+      "TH_STATUS": "状态",
+      "TH_DATE": "日期",
+      "STATUS_UPDATED": "状态已更新",
+      "STATUS_FAILED": "状态更新失败",
+      "LOAD_FAILED": "订单加载失败"
+    },
+    "KIND": {
+      "CUSTOM": "定制",
+      "CHECKOUT": "直购"
+    },
+    "STATUS": {
+      "NEW": "新订单",
+      "PAID": "已支付",
+      "IN_PROGRESS": "进行中",
+      "DONE": "已完成",
+      "CANCELLED": "已取消"
+    },
+    "PRODUCTS": {
+      "TITLE": "目录",
+      "ADD": "新建产品",
+      "EMPTY": "暂无产品",
+      "TH_KEY": "键名",
+      "TH_CATEGORY": "分类",
+      "TH_PRICE": "价格",
+      "TH_OLD_PRICE": "原价",
+      "TH_FEATURED": "首页展示",
+      "TH_ACTIONS": "操作",
+      "CREATE_TITLE": "新建产品",
+      "EDIT_TITLE": "编辑产品",
+      "DELETE_TITLE": "删除产品？",
+      "DELETE_TEXT": "产品“{{key}}”将被永久删除，此操作无法撤销。",
+      "FIELD_KEY": "键名 (i18n)",
+      "FIELD_CATEGORY": "分类",
+      "FIELD_PRICE": "价格（₽）",
+      "FIELD_OLD_PRICE": "原价（₽）",
+      "FIELD_FEATURED": "在首页展示",
+      "EDIT": "编辑",
+      "DELETE": "删除",
+      "SAVE": "保存",
+      "CREATE": "创建",
+      "CONFIRM_DELETE": "删除",
+      "CREATED": "产品已创建",
+      "SAVED": "产品已保存",
+      "DELETED": "产品已删除",
+      "SAVE_FAILED": "产品保存失败",
+      "DELETE_FAILED": "产品删除失败",
+      "INVALID": "请填写键名和价格"
+    },
+    "STATS": {
+      "TITLE": "统计",
+      "TOTAL": "订单总数",
+      "NEW": "新订单",
+      "REVENUE": "营收（已支付）",
+      "CUSTOM": "定制需求",
+      "CHECKOUT": "直购订单",
+      "LOAD_FAILED": "统计加载失败"
+    },
+    "SETTINGS": {
+      "TITLE": "设置",
+      "STATUS_TITLE": "Stripe 状态",
+      "ROW_MODE": "模式",
+      "ROW_ACCOUNT": "账户",
+      "ROW_KEY": "密钥",
+      "ROW_WEBHOOK": "Webhook",
+      "MODE_MOCK": "Mock 模式",
+      "MODE_TEST": "Test",
+      "MODE_LIVE": "Live",
+      "WEBHOOK_ON": "已配置",
+      "WEBHOOK_OFF": "未配置",
+      "FORM_TITLE": "连接 Stripe",
+      "FIELD_KEY": "密钥 (sk_test_...)",
+      "FIELD_WEBHOOK": "Webhook 密钥（whsec_...，选填）",
+      "SUBMIT": "验证并连接",
+      "ERROR_INVALID_KEY": "Stripe 拒绝了这个密钥。请确认完整复制了密钥——它以 sk_test_ 或 sk_live_ 开头。",
+      "CONNECTED": "Stripe 已连接",
+      "SAVE_FAILED": "Stripe 设置保存失败",
+      "LOAD_FAILED": "设置加载失败",
+      "DISCONNECT": "断开 Stripe",
+      "DISCONNECT_TITLE": "断开 Stripe？",
+      "DISCONNECT_TEXT": "密钥将被删除，支付会回到 mock 模式。随时可以重新连接 Stripe。",
+      "CONFIRM_DISCONNECT": "断开",
+      "DISCONNECTED": "Stripe 已断开",
+      "DISCONNECT_FAILED": "断开 Stripe 失败",
+      "HINT_TITLE": "在哪里找到密钥",
+      "HINT_KEYS": "密钥和 webhook 密钥都在 Stripe Dashboard 中：",
+      "HINT_WEBHOOK": "在 Stripe Dashboard 的 webhook 设置里填写此 URL：",
+      "COPY": "复制 Webhook URL"
+    },
+    "COMMON": {
+      "YES": "是",
+      "NO": "否"
+    }
+  },
+  "TOASTS": {
+    "ADDED_TO_CART": "已加入购物车：{{name}}",
+    "ORDER_SENT": "需求已发送！",
+    "ORDER_FAILED": "订单发送失败。请重试，或直接发邮件给我们",
+    "CHECKOUT_DONE": "订单已提交！",
+    "SCREENSHOT_SAVED": "截图已保存",
+    "MODEL_LOADED": "模型已加载：{{name}}",
+    "PAYMENT_SUCCESS": "支付成功！我们会尽快通过邮件联系你。",
+    "PAYMENT_CANCEL": "支付已取消",
+    "COPIED": "已复制"
+  },
+  "NOT_FOUND": {
+    "TITLE": "404——物体不存在",
+    "TEXT": "没有这个页面。不过有一个万物旋转的模型库。",
+    "BUTTON": "去模型库"
+  },
+  "LEGAL": {
+    "LABEL": "法律文件",
+    "UPDATED_LABEL": "更新于：{{date}}",
+    "OFFER": {
+      "TITLE": "服务条款（公开要约）",
+      "UPDATED": "19.08.2026",
+      "SECTIONS": [
+        {
+          "TITLE": "总则",
+          "BODY": "本文件为公开要约——即按以下条款订立数字商品销售及 3D 建模服务合同的提议。服务方为 FORMA³ 工作室（服务方法律身份：自由职业者或个体经营者——待确定）。在本网站下单或付款即视为完全、无条件地接受本要约的条款。"
+        },
+        {
+          "TITLE": "要约标的",
+          "BODY": "服务方销售网站目录中的成品数字 3D 模型，并提供定制 3D 模型制作服务（角色、hard-surface、产品可视化，以及用于 WebGL、AR/VR 和 3D 打印的模型）。所有商品均为数字商品，不进行实物配送。"
+        },
+        {
+          "TITLE": "下单流程",
+          "BODY": "成品模型通过网站购物车购买。定制作品通过需求表单下单：客户描述任务，服务方按所留联系方式确认细节，商定范围、工期与费用。除双方另有约定外，定制订单在条款确认并付款后开始制作。"
+        },
+        {
+          "TITLE": "付款",
+          "BODY": "价格标注于目录的产品页面；定制作品的费用另行协商。付款通过支付服务商（Stripe）在线完成。服务方不获取也不存储银行卡信息——由支付服务商处理。付款成功之时即视为对相应订单接受本要约。"
+        },
+        {
+          "TITLE": "文件交付",
+          "BODY": "已购模型的文件（GLB、FBX、OBJ 及其他约定格式）在确认付款后发送至下单时填写的邮箱。如未收到邮件，客户可通过联系邮箱申请重新发送。定制作品的文件按约定阶段验收后陆续交付。"
+        },
+        {
+          "TITLE": "模型授权",
+          "BODY": "自文件交付之时起，客户获得非独占、永久、免版税的商用授权：模型可用于游戏、广告、可视化、应用及其他项目，包括商业项目。禁止将模型文件本身（无论原始或修改后的版本）作为独立商品转售、出租或分发，也禁止将模型冒充为自己的作品。除合同另有约定外，模型的专有权利归服务方所有。"
+        },
+        {
+          "TITLE": "责任与争议解决",
+          "BODY": "服务方对所交付文件与商品描述或约定需求的一致性负责。因客户软件或平台限制导致模型无法使用的，服务方不承担责任。投诉请发送至 hello@forma3d.studio，将在 10 个工作日内处理；双方应尽力通过协商解决争议。"
+        },
+        {
+          "TITLE": "免责声明",
+          "BODY": "本文件为演示用途的模板。在实际商业活动中使用前，须由律师根据服务方的法律身份和适用法律进行审核与调整。"
+        }
+      ]
+    },
+    "PRIVACY": {
+      "TITLE": "隐私政策",
+      "UPDATED": "19.08.2026",
+      "SECTIONS": [
+        {
+          "TITLE": "总则",
+          "BODY": "本政策说明 FORMA³ 工作室（以下称服务方）收集哪些个人数据、用于何种目的以及如何保护。使用本网站并下单即表示您同意本政策的条款。"
+        },
+        {
+          "TITLE": "我们收集的数据",
+          "BODY": "下单时收集：姓名、电子邮箱、联系方式（电话或即时通讯工具），以及订单内容和备注。服务方不收集也不存储银行卡信息——支付由支付服务商处理。"
+        },
+        {
+          "TITLE": "处理目的",
+          "BODY": "数据仅用于处理订单：与客户联系、确认细节、把已购模型文件发送至邮箱，以及告知订单状态。不发送营销邮件，也不将数据用于广告。"
+        },
+        {
+          "TITLE": "数据存储与共享",
+          "BODY": "订单数据存储在服务方服务器的 SQLite 数据库中。除在完成支付所需范围内提供给支付服务商（Stripe）外，数据不会提供给任何第三方。只有服务方可通过受保护的管理后台访问数据。"
+        },
+        {
+          "TITLE": "Cookie 与本地数据",
+          "BODY": "网站仅在最小范围内使用 cookie 和浏览器本地存储：所选界面语言、购物车内容以及管理员会话（仅限网站所有者）。不使用广告或第三方分析跟踪器。"
+        },
+        {
+          "TITLE": "用户权利",
+          "BODY": "您有权查询、更正或删除自己的数据。请使用下单时填写的邮箱发信至 hello@forma3d.studio。请求将在 10 个工作日内处理；若数据不再是履行已付款订单所必需，即可删除。"
+        },
+        {
+          "TITLE": "免责声明",
+          "BODY": "本文件为演示用途的模板。在实际活动中使用前，须由律师根据适用的个人数据保护法律进行审核与调整。"
+        }
+      ]
+    },
+    "REFUNDS": {
+      "TITLE": "退款政策",
+      "UPDATED": "19.08.2026",
+      "SECTIONS": [
+        {
+          "TITLE": "总则",
+          "BODY": "本政策说明 FORMA³ 工作室数字商品及 3D 建模服务的退款条件。下单即表示您同意以下条款。"
+        },
+        {
+          "TITLE": "成品数字商品",
+          "BODY": "目录中的成品模型在文件发送至您的邮箱之前可以退款。文件交付后不再退款，因为数字商品无法退回——除非文件在技术上无法使用且无法替换。"
+        },
+        {
+          "TITLE": "定制作品",
+          "BODY": "定制订单按约定阶段进行（需求、概念、建模、收尾）。开工前退还全款。开工后按比例计算退款：扣除已完成并验收阶段的费用，退还余款。"
+        },
+        {
+          "TITLE": "文件技术问题",
+          "BODY": "如果收到的文件损坏、无法打开，或与商品描述或约定需求不符，请在收到后 14 天内联系我们。我们会替换文件或修正模型；若无法做到，将全额退款。"
+        },
+        {
+          "TITLE": "退款流程",
+          "BODY": "申请退款请使用下单时填写的邮箱发信至 hello@forma3d.studio，注明订单编号或订单内容及原因。申请将在 10 个工作日内审核。退款按原支付方式原路退回；到账时间取决于支付服务商和银行。"
+        },
+        {
+          "TITLE": "投诉联系方式",
+          "BODY": "关于订单、文件和退款的所有投诉均可发送至 hello@forma3d.studio。我们按顺序回复，并尽力通过协商解决问题。"
+        },
+        {
+          "TITLE": "免责声明",
+          "BODY": "本文件为演示用途的模板。在实际商业活动中使用前，须由律师根据适用的消费者权益保护法律进行审核与调整。"
+        }
+      ]
+    }
+  },
+  "META": {
+    "HOME_TITLE": "FORMA³ — 3D模型定制：游戏、品牌与产品3D建模",
+    "HOME_DESC": "FORMA³ 3D建模工作室：定制3D模型——角色、hard-surface、产品可视化、WebGL。48小时出概念稿，9 000 ₽起。",
+    "WORKS_TITLE": "3D模型库 — FORMA³工作室成品模型",
+    "WORKS_DESC": "带商用授权的成品3D模型：GLB、FBX、OBJ。每个模型都能在浏览器里直接旋转查看。需要独一无二的模型？我们支持定制。",
+    "ORDER_TITLE": "定制3D模型 — 48小时给出报价与工期 | FORMA³",
+    "ORDER_DESC": "为游戏、广告、AR/VR和3D打印定制3D模型。在线价格计算器，5分钟填写需求，48小时出概念稿。9 000 ₽起。",
+    "LAB_TITLE": "在线3D查看器 — 浏览器打开GLB、FBX、OBJ、STL | FORMA³",
+    "LAB_DESC": "免费在线3D文件查看器：GLB、GLTF、FBX、OBJ、STL。全部在浏览器本地运行，文件不会离开你的设备。",
+    "PRODUCT_TITLE": "{{name}} — 购买3D模型 | FORMA³",
+    "PRODUCT_DESC": "{{name}}：带商用授权的3D模型。GLB、FBX、OBJ格式。在浏览器里直接以3D查看。",
+    "NOT_FOUND_TITLE": "页面不存在 | FORMA³"
+  }
+}

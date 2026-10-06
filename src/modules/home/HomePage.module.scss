@@ -1,0 +1,19 @@
+/** Стили главной: страница-обёртка, фиксированный слой канваса и прозрачный контент поверх. */
+
+@use '@styles/layout' as *;
+
+.page {
+  @extend %page;
+}
+
+.canvasWrap {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-canvas);
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: var(--z-content);
+}

@@ -1,0 +1,118 @@
+/** Стили hero: центрированный первый экран, HUD-строка внизу и скролл-индикатор справа. */
+
+@use '@styles/breakpoints' as *;
+@use '@styles/layout' as *;
+
+.hero {
+  @extend %container;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100dvh - var(--header-h));
+  padding-block: var(--space-64) var(--space-96);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-24);
+}
+
+.line {
+  display: block;
+}
+
+.subtitle {
+  max-width: 580px;
+  color: var(--text-muted);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-16);
+}
+
+.hint {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  color: var(--text-dim);
+}
+
+.hud {
+  @extend %hud-row;
+  position: absolute;
+  inset-inline: var(--page-pad);
+  bottom: var(--space-32);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+
+  @include from(tablet) {
+    padding-right: var(--space-64);
+  }
+}
+
+.sep {
+  opacity: 0.5;
+}
+
+.scroll {
+  position: absolute;
+  right: var(--page-pad);
+  bottom: var(--space-32);
+  display: none;
+
+  @include from(tablet) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-12);
+  }
+}
+
+.scrollLabel {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  writing-mode: vertical-rl;
+}
+
+.scrollLine {
+  position: relative;
+  width: 1px;
+  height: 48px;
+  overflow: hidden;
+  background: var(--border-strong);
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 3px;
+    height: 10px;
+    border-radius: var(--radius-full);
+    background: var(--accent-bright);
+    animation: scroll-run 1.8s var(--ease-expo) infinite;
+  }
+}
+
+@keyframes scroll-run {
+  from {
+    transform: translateY(-12px);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(52px);
+    opacity: 0;
+  }
+}

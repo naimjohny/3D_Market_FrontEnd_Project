@@ -1,0 +1,22 @@
+/** Стили текстовой области: композиция оформления Input плюс вертикальный ресайз. */
+
+.field {
+  composes: field from '../Input/Input.module.scss';
+}
+
+.label {
+  composes: label from '../Input/Input.module.scss';
+}
+
+.control {
+  composes: input from '../Input/Input.module.scss';
+  resize: vertical;
+}
+
+.invalid {
+  composes: invalid from '../Input/Input.module.scss';
+}
+
+.error {
+  composes: error from '../Input/Input.module.scss';
+}

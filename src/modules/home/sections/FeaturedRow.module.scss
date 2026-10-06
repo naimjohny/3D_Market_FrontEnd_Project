@@ -1,0 +1,46 @@
+/** Стили ряда избранного: высокий грид с текстом слева и пустой зоной для 3D справа. */
+
+@use '@styles/breakpoints' as *;
+@use '@styles/typography' as *;
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  min-height: 78vh;
+
+  @include from(laptop) {
+    grid-template-columns: 1.1fr 1fr;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-16);
+}
+
+.index {
+  @extend %mono-label;
+}
+
+.desc {
+  max-width: 480px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
+.price {
+  @extend %mono-value;
+  font-size: var(--fs-h4);
+  color: var(--accent-bright);
+}
+
+.stage {
+  min-height: 0;
+}

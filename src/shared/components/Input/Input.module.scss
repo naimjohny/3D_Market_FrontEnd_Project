@@ -1,0 +1,49 @@
+/** Стили текстового поля: моно-лейбл, поверхность surface-2, фокус-свечение и ошибка. */
+
+@use '@styles/typography' as *;
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label {
+  @extend %mono-label;
+  font-size: var(--fs-xs);
+  margin-bottom: var(--space-8);
+}
+
+.input {
+  width: 100%;
+  padding: 14px var(--space-16);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  color: var(--text);
+  transition:
+    border-color var(--dur-fast) var(--ease-expo),
+    box-shadow var(--dur-fast) var(--ease-expo);
+
+  &::placeholder {
+    color: var(--text-dim);
+  }
+
+  &:focus {
+    outline: none;
+    border-color: var(--accent-bright);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+}
+
+.invalid {
+  border-color: var(--danger);
+}
+
+.error {
+  margin-top: 6px;
+  font-size: var(--fs-xs);
+  color: var(--danger);
+}

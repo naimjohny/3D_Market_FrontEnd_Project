@@ -1,0 +1,53 @@
+# FORMA³ — full studio details
+
+> FORMA³ is a custom 3D modeling studio. The main focus is commissioned work: custom 3D models for games, brands, advertising, AR/VR and 3D printing, with a concept delivered within 48 hours. The studio also sells ready-made 3D models with commercial licenses and provides a free in-browser 3D viewer. Site: https://forma3d-studio.netlify.app (11 languages via URL prefix: ru, en, es, de, pl, tg, kk, fa, ar, ko, zh).
+
+## Services
+
+- 3D modeling: hard-surface and organic — from sketch to production-ready model with PBR textures and UVs.
+- Product visualization: photoreal renders and interactive configurators that sell better than photos.
+- Characters and creatures: stylized and realistic characters with rigging — ready for animation and games.
+- 3D for the web: lightweight optimized scenes for websites — Three.js, WebGL, a solid 60 fps.
+
+## Process (three steps)
+
+1. Brief and concept. We discuss the task and gather references. Within 48 hours the client gets a concept, a moodboard and a precise quote.
+2. Modeling. Sculpting, texturing and lighting. Progress updates every couple of days — revisions on the go.
+3. Final and handover. Optimization, export to all formats, integration into the client's site or engine. The files belong to the client forever.
+
+## Pricing guide (from the online calculator)
+
+Custom work starts from 9,000 ₽ (~$99). Base price by category, before detail/rush multipliers:
+
+- Art object: from 9,000 ₽
+- Architecture: from 14,000 ₽
+- Tech / hard-surface: from 15,000 ₽
+- Environment: from 18,000 ₽
+- Character: from 30,000 ₽
+
+Modifiers: detail level ×1 (low) / ×1.8 (mid) / ×3.2 (high); rush delivery ×1.2 (up to 2 weeks) or ×1.5 (up to 1 week); 15% discount for batches of 5+ models. The calculator at /en/order gives an instant estimate.
+
+## Catalog: 10 ready-made models
+
+All models come with a commercial license and can be inspected in 3D in the browser at https://forma3d-studio.netlify.app/en/works/{id}.
+
+- Chrome Knot (chrome-torus) — 12,900 ₽. Seamless torus knot in liquid chrome; GLB, FBX, OBJ; animated.
+- Nebula Crystal (nebula-crystal) — 18,900 ₽ (was 24,900 ₽). Faceted crystal with glass-like refraction; GLB, FBX, OBJ.
+- Liquid Metal (liquid-blob) — 9,900 ₽. A living drop of metal that breathes and shimmers; GLB, OBJ; animated.
+- Planet Terra-9 (lowpoly-planet) — 14,900 ₽. Low-poly planet with rings and a moon; GLB, FBX, OBJ, STL; animated.
+- Cyber Helmet Ronin (cyber-helmet) — 34,900 ₽. Cyberpunk helmet with a neon visor; GLB, FBX, OBJ; rigged.
+- Bauhaus Column (bauhaus-column) — 11,900 ₽. Architectural composition of pure geometric forms; GLB, OBJ, STL.
+- Fibonacci Spiral (spiral-sculpt) — 16,900 ₽. Parametric golden-ratio spiral; GLB, FBX, OBJ; animated.
+- Drone Wasp (mech-drone) — 29,900 ₽ (was 35,900 ₽). Compact combat drone with spinning rotors; GLB, FBX, OBJ; rigged, animated.
+- Wave Ampere (abstract-wave) — 8,900 ₽. Field of pulsing waves, a living background; GLB, OBJ; animated.
+- Golden Shell (golden-shell) — 21,900 ₽. Parametric shell in polished gold; GLB, FBX, OBJ, STL.
+
+## 3D Lab — free online viewer
+
+https://forma3d-studio.netlify.app/en/lab — open GLB, GLTF, FBX, OBJ and STL files directly in the browser. Everything runs locally; files never leave the device. Useful for checking models before purchase or handover.
+
+## Contacts
+
+- Email: hello@forma3d.studio
+- Telegram: https://t.me/forma3d
+- Order form: https://forma3d-studio.netlify.app/en/order

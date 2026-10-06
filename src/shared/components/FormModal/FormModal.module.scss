@@ -1,0 +1,11 @@
+/** Стили модальной формы: вертикальная колонка полей и футер с кнопкой отправки. */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.footer {
+  margin-top: var(--space-8);
+}

@@ -1,0 +1,8 @@
+/** Стили общего канваса: обёртка фиксирована на весь вьюпорт, события идут сквозь неё. */
+
+.canvasWrap {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-canvas);
+  pointer-events: none;
+}

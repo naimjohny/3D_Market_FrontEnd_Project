@@ -1,0 +1,45 @@
+/** Стили круглой иконочной кнопки: рамка, ховер-акцент и абсолютный бейдж. */
+
+@use '@styles/mixins' as *;
+
+.iconButton {
+  @include flex-center;
+  position: relative;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  transition:
+    border-color var(--dur-fast) var(--ease-expo),
+    color var(--dur-fast) var(--ease-expo);
+
+  @include focus-ring;
+
+  &:hover {
+    border-color: var(--accent-bright);
+  }
+}
+
+.active {
+  border-color: var(--accent);
+}
+
+.badge {
+  @include flex-center;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  min-width: 18px;
+  height: 18px;
+  padding-inline: var(--space-4);
+  border-radius: var(--radius-full);
+  background: var(--accent);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  line-height: 1;
+}

@@ -1,0 +1,49 @@
+/** Переиспользуемые SCSS-миксины: флекс-паттерны, обрезка текста, фокус, скрытие скроллбара. */
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin line-clamp($lines) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@mixin hide-scrollbar {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@mixin focus-ring {
+  &:focus-visible {
+    outline: 2px solid var(--accent-bright);
+    outline-offset: 3px;
+  }
+}
+
+@mixin hover-glow($color: var(--accent-glow)) {
+  transition: box-shadow var(--dur-med) var(--ease-expo);
+
+  &:hover {
+    box-shadow: 0 0 48px $color;
+  }
+}

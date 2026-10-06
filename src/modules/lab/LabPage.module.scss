@@ -1,0 +1,101 @@
+/** Стили страницы лаборатории: сетка вьювер+панель, dropzone-оверлеи и HUD-углы. */
+
+@use '@styles/breakpoints' as *;
+@use '@styles/layout' as *;
+@use '@styles/mixins' as *;
+@use '@styles/typography' as *;
+
+.page {
+  @extend %page;
+}
+
+.lab {
+  @extend %container;
+  @extend %section;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-24);
+  align-items: start;
+  padding-top: 0;
+
+  @include from(laptop) {
+    grid-template-columns: 1fr 300px;
+  }
+}
+
+.viewer {
+  @extend %viewer-frame;
+  height: clamp(420px, 68vh, 760px);
+}
+
+.canvas {
+  position: absolute;
+  inset: 0;
+}
+
+.hud {
+  @extend %mono-label;
+  position: absolute;
+  top: var(--space-16);
+  max-width: 45%;
+  font-size: var(--fs-xs);
+  color: var(--text-dim);
+  pointer-events: none;
+}
+
+.hudLeft {
+  @include truncate;
+  left: var(--space-16);
+}
+
+.hudRight {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8);
+  right: var(--space-16);
+}
+
+.dot {
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: var(--radius-full);
+  background: var(--success);
+}
+
+.dropOverlay {
+  @extend %glass;
+  @include flex-center;
+  position: absolute;
+  inset: var(--space-12);
+  border: 1px dashed var(--accent-bright);
+  border-radius: var(--radius-md);
+  pointer-events: none;
+}
+
+.dropText {
+  @extend %h3;
+  padding-inline: var(--space-16);
+  color: var(--text);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.loadingOverlay {
+  @extend %overlay;
+  @include flex-center;
+  position: absolute;
+  pointer-events: none;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}

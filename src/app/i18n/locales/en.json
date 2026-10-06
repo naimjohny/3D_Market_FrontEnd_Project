@@ -1,0 +1,580 @@
+{
+  "GENERAL": {
+    "BRAND": "FORMA³",
+    "TAGLINE": "three-dimensional objects studio",
+    "NAV": {
+      "HOME": "Home",
+      "WORKS": "Catalog",
+      "ORDER": "Order",
+      "LAB": "3D Lab"
+    },
+    "ACTIONS": {
+      "VIEW": "View",
+      "VIEW_PRODUCT": "View product",
+      "ADD_TO_CART": "Add to cart",
+      "IN_CART": "In cart",
+      "ORDER_PROJECT": "Discuss a project",
+      "SEND": "Send",
+      "CLOSE": "Close",
+      "BACK": "Back",
+      "ALL": "All",
+      "TRY": "Try it",
+      "RESET": "Reset",
+      "GET_STARTED": "Get started",
+      "TO_CATALOG": "To catalog",
+      "MENU": "Menu"
+    },
+    "HUD": {
+      "RENDERER": "RENDERER",
+      "SCROLL": "SCROLL",
+      "LOADING": "LOADING",
+      "READY": "READY",
+      "WEBGL": "WEBGL2",
+      "FPS": "FPS",
+      "DRAG": "DRAG THE OBJECT",
+      "LOCAL": "LOCAL",
+      "COORDS": "55.751 N / 37.618 E",
+      "CODE": "FRM-3D"
+    },
+    "FOOTER": {
+      "RIGHTS": "© {{year}} FORMA³ — all rights reserved",
+      "MADE": "Made in three dimensions",
+      "CONTACTS": "Contacts",
+      "MENU": "Menu",
+      "SOCIALS": "Socials",
+      "EMAIL": "hello@forma3d.studio",
+      "CTA_TITLE": "Got a project in mind?",
+      "CTA_BUTTON": "Send a request",
+      "LEGAL_OFFER": "Offer",
+      "LEGAL_PRIVACY": "Privacy",
+      "LEGAL_REFUNDS": "Refunds"
+    }
+  },
+  "HOME": {
+    "HERO": {
+      "LABEL": "THREE-DIMENSIONAL OBJECTS STUDIO",
+      "TITLE_TOP": "Objects you want",
+      "TITLE_GRAD": "to reach out and touch",
+      "SUBTITLE": "We don't draw pictures — we sculpt matter. 3D models for games, brands and products, living right in your browser.",
+      "CTA_PRIMARY": "Order 3D",
+      "CTA_SECONDARY": "Browse catalog",
+      "HINT": "Touching allowed — go ahead, spin the object"
+    },
+    "MANIFESTO": {
+      "LABEL": "MANIFESTO",
+      "TEXT": "Flat gets forgotten. Volume stays. We turn ideas into three-dimensional objects that sell, impress and run in real time."
+    },
+    "FEATURED": {
+      "LABEL": "FEATURED WORK",
+      "PRODUCT": "Product",
+      "INFO": "Info",
+      "ALL_WORKS": "Full catalog"
+    },
+    "SERVICES": {
+      "LABEL": "WHAT WE DO",
+      "TITLE": "Every task gets its dimension",
+      "ITEMS": {
+        "MODELING": {
+          "TITLE": "3D modeling",
+          "DESC": "Hard-surface and organic: from sketch to production-ready model with PBR textures and UVs."
+        },
+        "PRODUCT": {
+          "TITLE": "Product visualization",
+          "DESC": "Photoreal renders and interactive configurators that sell better than photos."
+        },
+        "CHARACTERS": {
+          "TITLE": "Characters & creatures",
+          "DESC": "Stylized and realistic characters with rigging — ready for animation and games."
+        },
+        "WEB3D": {
+          "TITLE": "3D for the web",
+          "DESC": "Lightweight optimized scenes for websites: Three.js, WebGL, a solid 60 fps."
+        }
+      }
+    },
+    "PROCESS": {
+      "LABEL": "PROCESS",
+      "TITLE": "From brief to model — three steps",
+      "STEPS": {
+        "S1": {
+          "NUM": "01",
+          "TITLE": "Brief & concept",
+          "DESC": "We discuss the task and gather references. Within 48 hours you get a concept, a moodboard and a precise quote."
+        },
+        "S2": {
+          "NUM": "02",
+          "TITLE": "Modeling",
+          "DESC": "We sculpt, texture and light. Progress updates every couple of days — revisions on the go."
+        },
+        "S3": {
+          "NUM": "03",
+          "TITLE": "Final & handover",
+          "DESC": "Optimization, export to all formats, integration into your site or engine. The files are yours forever."
+        }
+      }
+    },
+    "STATS": {
+      "MODELS": "models delivered",
+      "POLYGONS": "million polygons sculpted",
+      "HOURS": "hours to first concept",
+      "FPS": "fps in the browser"
+    },
+    "CTA": {
+      "TITLE": "Your project is missing a dimension",
+      "SUBTITLE": "Write to us — we'll come back with a free 3D concept within 48 hours.",
+      "BUTTON": "Send a request"
+    },
+    "MARQUEE": "MODELING · VISUALIZATION · ANIMATION · CONFIGURATORS · WEBGL · CHARACTERS · LOW-POLY ·"
+  },
+  "WORKS": {
+    "TITLE": "Object catalog",
+    "SUBTITLE": "Ready-made licensed 3D models. Spin every one of them right here — they are real.",
+    "COUNT": "objects: {{count}}",
+    "EMPTY": "Nothing here yet",
+    "CATEGORIES": {
+      "ALL": "All",
+      "ART": "Art",
+      "TECH": "Tech",
+      "CHARACTER": "Characters",
+      "ENVIRONMENT": "Environment",
+      "ARCHITECTURE": "Architecture"
+    }
+  },
+  "PRODUCT": {
+    "IN_STOCK": "In stock · instant file delivery",
+    "SPECS": "Specifications",
+    "POLYCOUNT": "Polygons",
+    "FORMATS": "Formats",
+    "TEXTURES": "Textures",
+    "RIGGED": "Rigged",
+    "ANIMATED": "Animated",
+    "LICENSE": "License",
+    "LICENSE_VALUE": "Commercial, royalty-free",
+    "COLOR": "Color",
+    "FINISH": "Finish",
+    "FINISHES": {
+      "GLOSS": "Gloss",
+      "MATTE": "Matte",
+      "CHROME": "Chrome",
+      "GOLD": "Gold",
+      "GLASS": "Glass"
+    },
+    "RELATED": "Related objects",
+    "YES": "Yes",
+    "NO": "No",
+    "DRAG_HINT": "Drag to rotate · scroll to zoom",
+    "NOT_FOUND": "Object not found"
+  },
+  "ORDER": {
+    "TITLE": "We'll build your 3D",
+    "SUBTITLE": "An object, a character, a scene or a configurator — send a brief and we'll come back with a concept and an exact price within 48 hours.",
+    "CALC": {
+      "LABEL": "CALCULATOR",
+      "TITLE": "Estimate your budget",
+      "CATEGORY": "Object type",
+      "DETAIL": "Detail level",
+      "DETAILS": {
+        "LOW": "Low-poly",
+        "MID": "Medium",
+        "HIGH": "High-poly"
+      },
+      "COUNT": "Objects",
+      "DEADLINE": "Deadline, weeks",
+      "ESTIMATE": "Approximate",
+      "NOTE": "Final price comes after the brief. Usually within ±15%."
+    },
+    "FORM": {
+      "LABEL": "REQUEST",
+      "TITLE": "Send a request",
+      "NAME": "Name",
+      "EMAIL": "Email",
+      "CONTACT": "Telegram or phone (optional)",
+      "MESSAGE": "What do you need?",
+      "MESSAGE_PLACEHOLDER": "Describe the object, style, where it will live, reference links…",
+      "FILE": "Attach a reference or a 3D file",
+      "FILE_HINT": "GLB, GLTF, FBX, OBJ, STL — the file opens in 3D right here",
+      "SUBMIT": "Send request",
+      "SENDING": "Sending…",
+      "SUCCESS_TITLE": "Request sent!",
+      "SUCCESS_TEXT": "We'll reply within 48 hours — usually much faster. Check your inbox.",
+      "ERROR": "Sending failed. Please try again.",
+      "REQUIRED": "Required field",
+      "INVALID_EMAIL": "Invalid email"
+    },
+    "FAQ": {
+      "LABEL": "QUESTIONS",
+      "TITLE": "Frequently asked",
+      "ITEMS": {
+        "PRICE": {
+          "Q": "How much does a 3D model cost?",
+          "A": "Depends on complexity: a low-poly object from €90, detailed hard-surface from €250, a rigged character from €600. The calculator above gives a ballpark; the exact price comes after the brief."
+        },
+        "TIME": {
+          "Q": "How long does it take?",
+          "A": "A simple object — 3–5 days, a product model — 1–2 weeks, a character or scene — 2–4 weeks. The first concept lands within 48 hours."
+        },
+        "FORMATS": {
+          "Q": "Which formats do you deliver?",
+          "A": "GLB/GLTF, FBX, OBJ, STL, BLEND — plus texture sources. For the web we optimize further: Draco compression, KTX2 textures."
+        },
+        "EDITS": {
+          "Q": "How many revisions are included?",
+          "A": "Three revision rounds are included. We show progress every couple of days, so revisions stay small and fast."
+        },
+        "RIGHTS": {
+          "Q": "Who owns the rights?",
+          "A": "You do. After payment you get full commercial royalty-free rights. Catalog models can be used in any project."
+        }
+      }
+    }
+  },
+  "LAB": {
+    "TITLE": "3D laboratory",
+    "SUBTITLE": "Drop your own file — GLB, GLTF, FBX, OBJ or STL — and inspect it from every angle. Everything runs locally, nothing gets uploaded.",
+    "DROP": "Drop a 3D file here",
+    "OR": "or",
+    "BROWSE": "Browse files",
+    "DEMO": "Demo models",
+    "SETTINGS": {
+      "TITLE": "Scene",
+      "ENV": "Environment",
+      "WIREFRAME": "Wireframe",
+      "AUTOROTATE": "Auto-rotate",
+      "GRID": "Floor",
+      "SHADOWS": "Shadows"
+    },
+    "ENVS": {
+      "STUDIO": "Studio",
+      "NIGHT": "Night",
+      "NEON": "Neon",
+      "SUNSET": "Sunset"
+    },
+    "STATS": {
+      "TITLE": "Model",
+      "VERTICES": "Vertices",
+      "TRIANGLES": "Triangles",
+      "MESHES": "Meshes",
+      "MATERIALS": "Materials",
+      "SIZE": "Size",
+      "FORMAT": "Format"
+    },
+    "SCREENSHOT": "Screenshot",
+    "RESET_VIEW": "Reset camera",
+    "ERROR_FORMAT": "This format is not supported. Use GLB, GLTF, FBX, OBJ or STL.",
+    "ERROR_LOAD": "Could not read the model — the file is corrupted or non-standard.",
+    "PRIVACY": "The file is processed locally in your browser and never leaves it."
+  },
+  "CART": {
+    "TITLE": "Cart",
+    "EMPTY": "Empty for now",
+    "EMPTY_HINT": "Check the catalog — it's beautiful in there",
+    "TOTAL": "Total",
+    "CHECKOUT": "Checkout",
+    "REMOVE": "Remove",
+    "CHECKOUT_TITLE": "Checkout",
+    "CHECKOUT_NOTE": "Leave your contacts — card payment will open, or we will send an invoice by email.",
+    "SUCCESS_TITLE": "Order accepted!",
+    "SUCCESS_TEXT": "Order received! We will contact you by email with the files and payment details.",
+    "PAY": "Confirm order"
+  },
+  "PRODUCTS": {
+    "CHROME_TORUS": {
+      "NAME": "Chrome Knot",
+      "DESC": "A seamless torus knot in liquid chrome. Hypnotic in hero sections, covers and idents."
+    },
+    "NEBULA_CRYSTAL": {
+      "NAME": "Nebula Crystal",
+      "DESC": "A faceted crystal with real glass-like refraction. Luxury for branding and awards."
+    },
+    "LIQUID_BLOB": {
+      "NAME": "Liquid Metal",
+      "DESC": "A living drop of metal that breathes and shimmers. A perfect backdrop for bold landings."
+    },
+    "LOWPOLY_PLANET": {
+      "NAME": "Planet Terra-9",
+      "DESC": "A low-poly planet with rings and a moon. Ready for games, dashboards and space stories."
+    },
+    "CYBER_HELMET": {
+      "NAME": "Cyber Helmet Ronin",
+      "DESC": "A cyberpunk helmet with a neon visor. Built from precise hard-surface forms."
+    },
+    "BAUHAUS_COLUMN": {
+      "NAME": "Bauhaus Column",
+      "DESC": "An architectural composition of pure geometric forms. Strict as a manifesto."
+    },
+    "SPIRAL_SCULPT": {
+      "NAME": "Fibonacci Spiral",
+      "DESC": "A parametric golden-ratio spiral. Mathematics you want to stare at."
+    },
+    "MECH_DRONE": {
+      "NAME": "Drone Wasp",
+      "DESC": "A compact combat drone with spinning rotors. Mecha design readable from any angle."
+    },
+    "ABSTRACT_WAVE": {
+      "NAME": "Wave Ampere",
+      "DESC": "A field of pulsing waves — a living background that reacts to time. Pure synthwave."
+    },
+    "GOLDEN_SHELL": {
+      "NAME": "Golden Shell",
+      "DESC": "A parametric shell in polished gold. A natural form cast in metal."
+    }
+  },
+  "ADMIN": {
+    "NAV": {
+      "ORDERS": "Orders",
+      "PRODUCTS": "Catalog",
+      "STATS": "Stats",
+      "SETTINGS": "Settings",
+      "LOGOUT": "Log out"
+    },
+    "LOGIN": {
+      "LABEL": "ADMIN PANEL",
+      "TITLE": "Sign in",
+      "EMAIL": "Email",
+      "PASSWORD": "Password",
+      "SUBMIT": "Sign in",
+      "ERROR_AUTH": "Wrong email or password",
+      "ERROR_GENERIC": "Could not sign in. Please try again."
+    },
+    "ORDERS": {
+      "TITLE": "Orders",
+      "ALL": "All",
+      "EMPTY": "No orders yet",
+      "TH_ID": "ID",
+      "TH_KIND": "Type",
+      "TH_NAME": "Name",
+      "TH_EMAIL": "Email",
+      "TH_TOTAL": "Total",
+      "TH_STATUS": "Status",
+      "TH_DATE": "Date",
+      "STATUS_UPDATED": "Status updated",
+      "STATUS_FAILED": "Could not update status",
+      "LOAD_FAILED": "Could not load orders"
+    },
+    "KIND": {
+      "CUSTOM": "Custom",
+      "CHECKOUT": "Checkout"
+    },
+    "STATUS": {
+      "NEW": "New",
+      "PAID": "Paid",
+      "IN_PROGRESS": "In progress",
+      "DONE": "Done",
+      "CANCELLED": "Cancelled"
+    },
+    "PRODUCTS": {
+      "TITLE": "Catalog",
+      "ADD": "New product",
+      "EMPTY": "No products yet",
+      "TH_KEY": "Key",
+      "TH_CATEGORY": "Category",
+      "TH_PRICE": "Price",
+      "TH_OLD_PRICE": "Old price",
+      "TH_FEATURED": "Featured",
+      "TH_ACTIONS": "Actions",
+      "CREATE_TITLE": "New product",
+      "EDIT_TITLE": "Edit product",
+      "DELETE_TITLE": "Delete product?",
+      "DELETE_TEXT": "Product \"{{key}}\" will be deleted forever. This cannot be undone.",
+      "FIELD_KEY": "Key (i18n)",
+      "FIELD_CATEGORY": "Category",
+      "FIELD_PRICE": "Price, RUB",
+      "FIELD_OLD_PRICE": "Old price, RUB",
+      "FIELD_FEATURED": "Show as featured",
+      "EDIT": "Edit",
+      "DELETE": "Delete",
+      "SAVE": "Save",
+      "CREATE": "Create",
+      "CONFIRM_DELETE": "Delete",
+      "CREATED": "Product created",
+      "SAVED": "Product saved",
+      "DELETED": "Product deleted",
+      "SAVE_FAILED": "Could not save product",
+      "DELETE_FAILED": "Could not delete product",
+      "INVALID": "Fill in the key and price"
+    },
+    "STATS": {
+      "TITLE": "Stats",
+      "TOTAL": "Total orders",
+      "NEW": "New",
+      "REVENUE": "Revenue (paid)",
+      "CUSTOM": "Custom requests",
+      "CHECKOUT": "Checkouts",
+      "LOAD_FAILED": "Could not load stats"
+    },
+    "SETTINGS": {
+      "TITLE": "Settings",
+      "STATUS_TITLE": "Stripe status",
+      "ROW_MODE": "Mode",
+      "ROW_ACCOUNT": "Account",
+      "ROW_KEY": "Secret key",
+      "ROW_WEBHOOK": "Webhook",
+      "MODE_MOCK": "Mock mode",
+      "MODE_TEST": "Test",
+      "MODE_LIVE": "Live",
+      "WEBHOOK_ON": "Configured",
+      "WEBHOOK_OFF": "Not configured",
+      "FORM_TITLE": "Connect Stripe",
+      "FIELD_KEY": "Secret key (sk_test_...)",
+      "FIELD_WEBHOOK": "Webhook secret (whsec_..., optional)",
+      "SUBMIT": "Verify & connect",
+      "ERROR_INVALID_KEY": "Stripe rejected this key. Make sure you copied the full secret key — it starts with sk_test_ or sk_live_.",
+      "CONNECTED": "Stripe connected",
+      "SAVE_FAILED": "Could not save Stripe settings",
+      "LOAD_FAILED": "Could not load settings",
+      "DISCONNECT": "Disconnect Stripe",
+      "DISCONNECT_TITLE": "Disconnect Stripe?",
+      "DISCONNECT_TEXT": "The keys will be removed and payments will fall back to mock mode. You can reconnect Stripe at any time.",
+      "CONFIRM_DISCONNECT": "Disconnect",
+      "DISCONNECTED": "Stripe disconnected",
+      "DISCONNECT_FAILED": "Could not disconnect Stripe",
+      "HINT_TITLE": "Where to find the keys",
+      "HINT_KEYS": "The secret key and webhook secret live in the Stripe Dashboard:",
+      "HINT_WEBHOOK": "Use this URL for the webhook endpoint in the Stripe Dashboard:",
+      "COPY": "Copy webhook URL"
+    },
+    "COMMON": {
+      "YES": "Yes",
+      "NO": "No"
+    }
+  },
+  "TOASTS": {
+    "ADDED_TO_CART": "Added to cart: {{name}}",
+    "ORDER_SENT": "Request sent!",
+    "ORDER_FAILED": "Failed to submit the order. Please retry or email us",
+    "CHECKOUT_DONE": "Order placed!",
+    "SCREENSHOT_SAVED": "Screenshot saved",
+    "MODEL_LOADED": "Model loaded: {{name}}",
+    "PAYMENT_SUCCESS": "Payment received! We will email you shortly.",
+    "PAYMENT_CANCEL": "Payment cancelled",
+    "COPIED": "Copied"
+  },
+  "NOT_FOUND": {
+    "TITLE": "404 — object not found",
+    "TEXT": "This page doesn't exist. But there's a catalog where everything spins.",
+    "BUTTON": "To catalog"
+  },
+  "LEGAL": {
+    "LABEL": "Legal",
+    "UPDATED_LABEL": "Updated: {{date}}",
+    "OFFER": {
+      "TITLE": "Public Offer",
+      "UPDATED": "August 19, 2026",
+      "SECTIONS": [
+        {
+          "TITLE": "General Provisions",
+          "BODY": "This document is a public offer — a proposal to enter into an agreement for the sale of digital goods and the provision of 3D modeling services on the terms set out below. The contractor is the FORMA³ studio (legal status of the contractor: self-employed or sole proprietor — to be specified). Placing an order on the website or making a payment constitutes full and unconditional acceptance of this offer."
+        },
+        {
+          "TITLE": "Subject of the Offer",
+          "BODY": "The contractor sells ready-made digital 3D models from the website catalog and provides custom 3D modeling services (characters, hard-surface, product visualization, models for WebGL, AR/VR and 3D printing). All goods are digital: no physical delivery is performed."
+        },
+        {
+          "TITLE": "Ordering Process",
+          "BODY": "Ready-made models are purchased through the website cart. Custom work is ordered via the request form: the client describes the task, the contractor clarifies the details through the provided contacts and agrees on the scope, timeline and price. Work on a custom order starts after the terms are confirmed and paid for, unless the parties agree otherwise."
+        },
+        {
+          "TITLE": "Payment",
+          "BODY": "Prices are listed in the catalog on product pages; the cost of custom work is agreed individually. Payment is made online through a payment provider (Stripe). The contractor does not receive or store card details — they are processed by the payment provider. The moment of successful payment is considered acceptance of the offer for the specific order."
+        },
+        {
+          "TITLE": "File Delivery",
+          "BODY": "Files of purchased models (GLB, FBX, OBJ and other agreed formats) are sent to the email address provided at checkout after the payment is confirmed. If the email does not arrive, the client may request a re-send via the contact email. For custom work, files are delivered as the agreed milestones are accepted."
+        },
+        {
+          "TITLE": "Model License",
+          "BODY": "From the moment the files are delivered, the client receives a non-exclusive, perpetual, royalty-free commercial license: the model may be used in games, advertising, visualizations, applications and other projects, including commercial ones. It is prohibited to resell, rent out or distribute the model files themselves (in original or modified form) as a standalone product, or to present the model as one's own work. Exclusive rights to the model remain with the contractor unless otherwise agreed in a contract."
+        },
+        {
+          "TITLE": "Liability and Disputes",
+          "BODY": "The contractor is responsible for the delivered files matching the product description or the agreed brief. The contractor is not liable for the inability to use a model due to limitations of the client's software or platforms. Claims should be sent to hello@forma3d.studio and are reviewed within 10 business days; the parties strive to resolve disputes through negotiation."
+        },
+        {
+          "TITLE": "Disclaimer",
+          "BODY": "This document is a template prepared for demonstration purposes. Before being used in real commercial activity, the text must be reviewed and adapted by a lawyer, taking into account the contractor's legal status and the applicable law."
+        }
+      ]
+    },
+    "PRIVACY": {
+      "TITLE": "Privacy Policy",
+      "UPDATED": "August 19, 2026",
+      "SECTIONS": [
+        {
+          "TITLE": "General Provisions",
+          "BODY": "This policy describes what personal data the FORMA³ studio (the contractor) collects, what it is used for and how it is protected. By using the website and placing orders, you agree to the terms of this policy."
+        },
+        {
+          "TITLE": "What Data We Collect",
+          "BODY": "When placing an order, we collect: name, email address and a contact for communication (phone or messenger), as well as the order contents and comments. Card details are not collected or stored by the contractor — payments are processed by the payment provider."
+        },
+        {
+          "TITLE": "Purposes of Processing",
+          "BODY": "The data is used solely for order processing: contacting the client, clarifying details, sending the files of purchased models by email and informing about the order status. No marketing emails are sent and no data is shared for advertising."
+        },
+        {
+          "TITLE": "Storage and Sharing",
+          "BODY": "Order data is stored in an SQLite database on the contractor's server. Data is not shared with third parties, except for the payment provider (Stripe) — to the extent necessary to process the payment. Only the contractor has access to the data through a protected admin panel."
+        },
+        {
+          "TITLE": "Cookies and Local Data",
+          "BODY": "The website uses cookies and browser local storage to a minimal extent: the selected interface language, the cart contents and the administrator session (site owner only). No advertising or third-party analytics trackers are used."
+        },
+        {
+          "TITLE": "Your Rights",
+          "BODY": "You may request information about your data, its correction or deletion. To do so, write to hello@forma3d.studio from the address provided at checkout. Requests are processed within 10 business days; deletion is possible if the data is not required to fulfill an already paid order."
+        },
+        {
+          "TITLE": "Disclaimer",
+          "BODY": "This document is a template prepared for demonstration purposes. Before being used in real activity, the text must be reviewed and adapted by a lawyer, taking into account the applicable personal data legislation."
+        }
+      ]
+    },
+    "REFUNDS": {
+      "TITLE": "Refund Policy",
+      "UPDATED": "August 19, 2026",
+      "SECTIONS": [
+        {
+          "TITLE": "General Provisions",
+          "BODY": "This policy describes the refund terms for digital goods and 3D modeling services of the FORMA³ studio. By placing an order, you agree to the terms set out below."
+        },
+        {
+          "TITLE": "Ready-Made Digital Goods",
+          "BODY": "A refund for a ready-made model from the catalog is possible until the files are sent to your email. After the files have been delivered, no refund is provided, since a digital product cannot be returned — except when the files are technically unusable and could not be replaced."
+        },
+        {
+          "TITLE": "Custom Work",
+          "BODY": "Work on an order is divided into agreed milestones (brief, concept, modeling, finalization). Before work starts, the full amount is refunded. After work has started, the refund is calculated proportionally: the cost of the milestones already completed and accepted is withheld, and the remainder is returned."
+        },
+        {
+          "TITLE": "Technical Issues with Files",
+          "BODY": "If the received files are corrupted, do not open, or do not match the product description or the agreed brief, contact us within 14 days of receipt. We will replace the files or fix the model; if that is not possible, we will refund the payment in full."
+        },
+        {
+          "TITLE": "How to Request a Refund",
+          "BODY": "To request a refund, send a message to hello@forma3d.studio from the address used for the order: include the order number or contents and the reason. Requests are reviewed within 10 business days. Refunds are issued via the same payment method used for the purchase; the crediting time depends on the payment provider and the bank."
+        },
+        {
+          "TITLE": "Contact for Claims",
+          "BODY": "All claims regarding orders, files and refunds are accepted at hello@forma3d.studio. We respond to requests in order of receipt and strive to resolve issues through negotiation."
+        },
+        {
+          "TITLE": "Disclaimer",
+          "BODY": "This document is a template prepared for demonstration purposes. Before being used in real commercial activity, the text must be reviewed and adapted by a lawyer, taking into account the applicable consumer protection legislation."
+        }
+      ]
+    }
+  },
+  "META": {
+    "HOME_TITLE": "FORMA³ — Custom 3D Modeling: models for games, brands and products",
+    "HOME_DESC": "FORMA³ 3D studio: custom 3D models on demand — characters, hard-surface, product visualization, WebGL. Concept in 48 hours, from $99.",
+    "WORKS_TITLE": "3D Model Catalog — ready-made works by FORMA³",
+    "WORKS_DESC": "Ready 3D models with a commercial license: GLB, FBX, OBJ. Spin every model right in your browser. Need a unique one — we build custom.",
+    "ORDER_TITLE": "Order a Custom 3D Model — price & timeline in 48h | FORMA³",
+    "ORDER_DESC": "Commission a 3D model for games, ads, AR/VR or printing. Online price calculator, 5-minute brief, concept in 48 hours.",
+    "LAB_TITLE": "Online 3D Viewer — open GLB, FBX, OBJ, STL in browser | FORMA³",
+    "LAB_DESC": "Free online 3D file viewer: GLB, GLTF, FBX, OBJ, STL. Everything runs locally in your browser, files never leave your device.",
+    "PRODUCT_TITLE": "{{name}} — buy 3D model | FORMA³",
+    "PRODUCT_DESC": "{{name}}: a 3D model with a commercial license. GLB, FBX, OBJ formats. Inspect it in 3D right in your browser.",
+    "NOT_FOUND_TITLE": "Page not found | FORMA³"
+  }
+}

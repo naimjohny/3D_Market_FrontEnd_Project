@@ -1,0 +1,28 @@
+/** Стили секции избранного: шапка со счётчиком работ и хвостовая ссылка на весь каталог. */
+
+@use '@styles/layout' as *;
+@use '@styles/typography' as *;
+
+.featured {
+  @extend %container;
+  @extend %section;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-16);
+}
+
+.count {
+  @extend %mono-value;
+  font-size: var(--fs-xs);
+  color: var(--text-dim);
+}
+
+.allWorks {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-48);
+}

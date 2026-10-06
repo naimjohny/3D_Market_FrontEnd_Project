@@ -1,0 +1,7 @@
+/** Стили градиентного текста: тёплый градиент через background-clip. */
+
+@use '@styles/typography' as *;
+
+.grad {
+  @extend %grad-text;
+}

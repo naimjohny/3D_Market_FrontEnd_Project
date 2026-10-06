@@ -1,0 +1,17 @@
+/** Единый источник брейкпоинтов. Mobile-first: базовые стили под мобилку, расширение через from(). */
+
+@use 'sass:map';
+
+$bp: (mobile: 390px, tablet: 768px, laptop: 1024px, desktop: 1440px);
+
+@mixin from($name) {
+  @media (min-width: map.get($bp, $name)) {
+    @content;
+  }
+}
+
+@mixin until($name) {
+  @media (max-width: (map.get($bp, $name) - 1px)) {
+    @content;
+  }
+}

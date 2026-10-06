@@ -1,0 +1,37 @@
+/** Стили модального окна: затемнённый оверлей и стеклянная панель по центру. */
+
+@use '@styles/breakpoints' as *;
+@use '@styles/layout' as *;
+@use '@styles/mixins' as *;
+
+.overlay {
+  @extend %overlay;
+  z-index: var(--z-modal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--page-pad);
+}
+
+.panel {
+  @extend %glass;
+  width: min(92vw, 520px);
+  max-height: 86dvh;
+  overflow-y: auto;
+  border-radius: var(--radius-lg);
+  padding: var(--space-24);
+
+  @include from(tablet) {
+    padding: var(--space-32);
+  }
+}
+
+.lg {
+  width: min(92vw, 720px);
+}
+
+.head {
+  @include flex-between;
+  gap: var(--space-16);
+  margin-bottom: var(--space-24);
+}

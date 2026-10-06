@@ -1,0 +1,18 @@
+/** Стили манифеста: контейнерная секция с огромной дисплейной типографикой. */
+
+@use '@styles/layout' as *;
+@use '@styles/typography' as *;
+
+.manifesto {
+  @extend %container;
+  @extend %section;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-32);
+}
+
+.text {
+  @extend %h2;
+  display: block;
+  max-width: 1100px;
+}

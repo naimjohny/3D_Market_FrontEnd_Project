@@ -1,0 +1,45 @@
+/** Стили каталога: скроллящаяся панель фильтров со счётчиком и грид карточек продуктов. */
+
+@use '@styles/mixins' as *;
+@use '@styles/breakpoints' as *;
+@use '@styles/layout' as *;
+
+.page {
+  @extend %page;
+}
+
+.catalog {
+  @extend %section;
+  padding-block-start: 0;
+}
+
+.filters {
+  @extend %container;
+  @include hide-scrollbar;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow-x: auto;
+  margin-bottom: clamp(24px, 4vw, 48px);
+
+  @include from(tablet) {
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+}
+
+.count {
+  margin-inline-start: auto;
+  padding-inline-start: var(--space-8);
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.grid {
+  @extend %container;
+  @extend %grid-cards;
+}
+
+.empty {
+  @extend %container;
+}

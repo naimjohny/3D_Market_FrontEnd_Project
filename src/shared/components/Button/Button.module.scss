@@ -1,0 +1,95 @@
+/** Стили кнопки: pill-варианты, размеры, свечение primary и магнитный сдвиг. */
+
+@use '@styles/mixins' as *;
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-8);
+  border-radius: var(--radius-full);
+  font-family: var(--font-mono);
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    background-color var(--dur-fast) var(--ease-expo),
+    border-color var(--dur-fast) var(--ease-expo),
+    color var(--dur-fast) var(--ease-expo),
+    box-shadow var(--dur-fast) var(--ease-expo);
+
+  @include focus-ring;
+
+  &:disabled {
+    opacity: 0.45;
+    pointer-events: none;
+  }
+
+  &.magnetic {
+    translate: var(--mx, 0) var(--my, 0);
+    transition:
+      background-color var(--dur-fast) var(--ease-expo),
+      border-color var(--dur-fast) var(--ease-expo),
+      color var(--dur-fast) var(--ease-expo),
+      box-shadow var(--dur-fast) var(--ease-expo),
+      translate var(--dur-med) var(--ease-back);
+  }
+}
+
+.primary {
+  border: 1px solid transparent;
+  background: var(--accent);
+  color: var(--text);
+
+  &:hover {
+    background: var(--accent-hover);
+    box-shadow: 0 0 32px var(--accent-glow);
+  }
+}
+
+.secondary {
+  border: 1px solid var(--border-strong);
+  background: transparent;
+  color: var(--text);
+
+  &:hover {
+    border-color: var(--accent-bright);
+    color: var(--accent-bright);
+  }
+}
+
+.ghost {
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-muted);
+
+  &:hover {
+    color: var(--text);
+  }
+}
+
+.sm {
+  padding: var(--space-8) var(--space-16);
+}
+
+.md {
+  min-height: 44px;
+  padding: var(--space-12) var(--space-24);
+}
+
+.lg {
+  padding: var(--space-16) var(--space-32);
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}

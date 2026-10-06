@@ -1,0 +1,31 @@
+/** Стили чипа: моно-капсула, ховер для кликабельного и акцентное активное состояние. */
+
+@use '@styles/layout' as *;
+@use '@styles/mixins' as *;
+
+.chip {
+  @extend %chip;
+  background: transparent;
+  transition:
+    border-color var(--dur-fast) var(--ease-expo),
+    color var(--dur-fast) var(--ease-expo),
+    background-color var(--dur-fast) var(--ease-expo);
+}
+
+.clickable {
+  cursor: pointer;
+
+  @include focus-ring;
+
+  &:hover {
+    border-color: var(--border-strong);
+    color: var(--text);
+  }
+}
+
+.active,
+.active:hover {
+  border-color: var(--accent-bright);
+  color: var(--text);
+  background: var(--accent-soft);
+}

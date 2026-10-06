@@ -1,0 +1,110 @@
+/** Стили формы заявки: карточка, дашед-дроп-зона файла, 3D-превью и экран успеха. */
+
+@use '@styles/breakpoints' as *;
+@use '@styles/layout' as *;
+@use '@styles/typography' as *;
+
+.card {
+  @extend %surface-card;
+  padding: var(--space-24);
+
+  @include from(tablet) {
+    padding: var(--space-32);
+  }
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  margin-bottom: var(--space-24);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.fileBlock {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.fileLabel {
+  @extend %mono-label;
+  font-size: var(--fs-xs);
+}
+
+.zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-12);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-md);
+  padding: var(--space-24);
+  text-align: center;
+  transition:
+    border-color var(--dur-fast) var(--ease-expo),
+    background-color var(--dur-fast) var(--ease-expo);
+
+  &:hover,
+  &.dragOver {
+    border-color: var(--accent-bright);
+    background: var(--accent-soft);
+  }
+}
+
+.zoneIcon {
+  color: var(--text-muted);
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  padding-block: var(--space-16);
+}
+
+.preview {
+  @extend %viewer-frame;
+  height: 260px;
+  border-radius: var(--radius-md);
+}
+
+.canvas {
+  position: absolute;
+  inset: 0;
+}
+
+.fileMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
+.fileBlock .privacy {
+  font-size: var(--fs-xs);
+}
+
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-16);
+  padding-block: var(--space-32);
+  text-align: center;
+}
+
+.successIcon {
+  color: var(--success);
+}
+
+.success .orderId {
+  color: var(--text-dim);
+}

@@ -1,0 +1,43 @@
+/** Стили прелоадера: полноэкранный тёмный слой, HUD-лейбл, гигантский процент, полоса прогресса. */
+
+@use '@styles/mixins' as *;
+@use '@styles/typography' as *;
+
+.preloader {
+  @include flex-center;
+
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-preloader);
+  background: var(--bg-deep);
+}
+
+.preloader .label {
+  position: absolute;
+  top: var(--space-24);
+  left: var(--page-pad);
+}
+
+.percent {
+  @extend %display;
+
+  font-size: var(--fs-hero);
+  font-variant-numeric: tabular-nums;
+}
+
+.percentSign {
+  margin-left: var(--space-8);
+  font-family: var(--font-mono);
+  font-size: 0.3em;
+  vertical-align: super;
+  color: var(--accent-bright);
+}
+
+.bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: var(--progress, 0%);
+  height: 2px;
+  background: var(--accent-bright);
+}

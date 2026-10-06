@@ -1,0 +1,135 @@
+/** Стили дровера корзины: оверлей, боковая панель, позиции со свотчами, степпер и футер итога. */
+
+@use '@styles/mixins' as *;
+@use '@styles/layout' as *;
+@use '@styles/typography' as *;
+
+.overlay {
+  @extend %overlay;
+
+  z-index: var(--z-drawer);
+}
+
+.panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: var(--z-drawer);
+  display: flex;
+  flex-direction: column;
+  width: min(440px, 100vw);
+  height: 100dvh;
+  background: var(--surface);
+  border-left: 1px solid var(--border);
+}
+
+.head {
+  @include flex-between;
+
+  flex-shrink: 0;
+  padding: var(--space-24);
+  border-bottom: 1px solid var(--border);
+}
+
+.empty {
+  @include flex-center;
+
+  flex: 1;
+  padding: var(--space-24);
+}
+
+.list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24);
+  padding: var(--space-24);
+  overflow-y: auto;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+}
+
+.swatch {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--border-strong);
+  border-radius: 50%;
+  background: var(--swatch);
+}
+
+.info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.name {
+  @include truncate;
+
+  font-size: var(--fs-sm);
+  font-weight: 500;
+}
+
+.price {
+  @extend %mono-value;
+
+  color: var(--text-muted);
+}
+
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+}
+
+.stepBtn {
+  @include flex-center;
+
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: none;
+  color: var(--text-muted);
+  transition:
+    color var(--dur-fast) var(--ease-expo),
+    border-color var(--dur-fast) var(--ease-expo);
+
+  &:hover {
+    color: var(--text);
+    border-color: var(--border-strong);
+  }
+}
+
+.qty {
+  @extend %mono-value;
+
+  min-width: 20px;
+  text-align: center;
+}
+
+.foot {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  padding: var(--space-24);
+  border-top: 1px solid var(--border);
+}
+
+.totalRow {
+  @include flex-between;
+}
+
+.totalValue {
+  @extend %display;
+
+  font-size: var(--fs-h3);
+}

@@ -1,0 +1,65 @@
+/** Стили страницы заказов: фильтр-чипы, таблица с моно-колонками и компактный селект статуса. */
+
+@use '@styles/breakpoints' as *;
+@use '@styles/mixins' as *;
+@use 'admin' as *;
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  @extend %admin-head;
+}
+
+.filters {
+  @include hide-scrollbar;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow-x: auto;
+  margin-bottom: var(--space-24);
+
+  @include from(tablet) {
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+}
+
+.loader {
+  @extend %admin-loader;
+}
+
+.tableWrap {
+  @extend %admin-table-wrap;
+}
+
+.table {
+  @extend %admin-table;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-size: var(--fs-mono);
+  color: var(--text-muted);
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sum {
+  font-family: var(--font-mono);
+  font-size: var(--fs-mono);
+  white-space: nowrap;
+}
+
+.statusCell {
+  min-width: 168px;
+
+  select {
+    padding-block: 8px;
+    font-size: var(--fs-sm);
+  }
+}

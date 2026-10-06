@@ -1,0 +1,65 @@
+/** Стили страницы продукта: хлебные крошки, сетка вьювер + панель и секция похожих. */
+
+@use '@styles/breakpoints' as *;
+@use '@styles/layout' as *;
+@use '@styles/mixins' as *;
+
+.page {
+  @extend %page;
+}
+
+.container {
+  @extend %container;
+}
+
+.center {
+  @include flex-center;
+  min-height: 60vh;
+}
+
+.crumbs {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  padding-block: var(--space-24);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+.crumbLink {
+  color: var(--text-dim);
+  transition: color var(--dur-fast) var(--ease-expo);
+
+  &:hover {
+    color: var(--text);
+  }
+}
+
+.crumbCurrent {
+  @include truncate;
+  color: var(--text-muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-32);
+
+  @include from(laptop) {
+    grid-template-columns: 1.15fr 1fr;
+    gap: var(--space-48);
+    align-items: start;
+  }
+}
+
+.related {
+  @extend %section;
+}
+
+.relatedGrid {
+  @extend %grid-cards;
+  margin-top: var(--space-32);
+}

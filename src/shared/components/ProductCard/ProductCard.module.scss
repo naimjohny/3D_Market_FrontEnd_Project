@@ -1,0 +1,78 @@
+/** Стили карточки продукта: поверхность с ховер-подъёмом, зона сцены и инфо-блок. */
+
+@use '@styles/breakpoints' as *;
+@use '@styles/layout' as *;
+@use '@styles/typography' as *;
+
+.card {
+  @extend %surface-card;
+  display: block;
+  color: var(--text);
+  transition:
+    transform var(--dur-med) var(--ease-expo),
+    border-color var(--dur-fast) var(--ease-expo);
+
+  &:hover {
+    border-color: var(--accent-bright);
+    transform: translateY(-6px);
+
+    .scene {
+      transform: scale(1.04);
+    }
+  }
+}
+
+.stage {
+  position: relative;
+  aspect-ratio: 4 / 5;
+
+  @include from(tablet) {
+    aspect-ratio: 1 / 1;
+  }
+}
+
+.scene {
+  position: absolute;
+  inset: 0;
+  transform: scale(1);
+  transition: transform var(--dur-med) var(--ease-expo);
+}
+
+.number {
+  @extend %mono-label;
+  position: absolute;
+  top: var(--space-16);
+  left: var(--space-16);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  padding: 20px;
+}
+
+.headRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-12);
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
+.price {
+  @extend %mono-value;
+  font-size: var(--fs-body);
+}
+
+.oldPrice {
+  @extend %mono-value;
+  color: var(--text-dim);
+  text-decoration: line-through;
+}

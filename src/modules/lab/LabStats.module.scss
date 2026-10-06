@@ -1,0 +1,41 @@
+/** Стили статистики модели: карточка-поверхность и моно-строки метрик. */
+
+@use '@styles/layout' as *;
+@use '@styles/mixins' as *;
+@use '@styles/typography' as *;
+
+.card {
+  @extend %surface-card;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  padding: 20px;
+}
+
+.label {
+  @extend %mono-label;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  margin: 0;
+}
+
+.row {
+  @include flex-between;
+  gap: var(--space-16);
+}
+
+.term {
+  @extend %mono-value;
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+
+.value {
+  @extend %mono-value;
+  margin: 0;
+  font-size: var(--fs-sm);
+}

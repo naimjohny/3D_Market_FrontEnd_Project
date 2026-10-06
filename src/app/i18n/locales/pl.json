@@ -1,0 +1,470 @@
+{
+  "GENERAL": {
+    "BRAND": "FORMA³",
+    "TAGLINE": "studio trójwymiarowych obiektów",
+    "NAV": {
+      "HOME": "Start",
+      "WORKS": "Katalog",
+      "ORDER": "Zamówienie",
+      "LAB": "Lab 3D"
+    },
+    "ACTIONS": {
+      "VIEW": "Zobacz",
+      "VIEW_PRODUCT": "Otwórz produkt",
+      "ADD_TO_CART": "Do koszyka",
+      "IN_CART": "W koszyku",
+      "ORDER_PROJECT": "Omów projekt",
+      "SEND": "Wyślij",
+      "CLOSE": "Zamknij",
+      "BACK": "Wstecz",
+      "ALL": "Wszystkie",
+      "TRY": "Wypróbuj",
+      "RESET": "Resetuj",
+      "GET_STARTED": "Zaczynamy",
+      "TO_CATALOG": "Do katalogu",
+      "MENU": "Menu"
+    },
+    "HUD": {
+      "RENDERER": "RENDERER",
+      "SCROLL": "SCROLL",
+      "LOADING": "ŁADOWANIE",
+      "READY": "GOTOWE",
+      "WEBGL": "WEBGL2",
+      "FPS": "FPS",
+      "DRAG": "OBRACAJ OBIEKT",
+      "LOCAL": "LOKALNIE",
+      "COORDS": "55.751 N / 37.618 E",
+      "CODE": "FRM-3D"
+    },
+    "FOOTER": {
+      "RIGHTS": "© {{year}} FORMA³ — wszelkie prawa zastrzeżone",
+      "MADE": "Zrobione w trzech wymiarach",
+      "CONTACTS": "Kontakt",
+      "MENU": "Nawigacja",
+      "SOCIALS": "Social media",
+      "EMAIL": "hello@forma3d.studio",
+      "CTA_TITLE": "Porozmawiamy o Twoim projekcie?",
+      "CTA_BUTTON": "Wyślij zapytanie",
+      "LEGAL_OFFER": "Regulamin",
+      "LEGAL_PRIVACY": "Prywatność",
+      "LEGAL_REFUNDS": "Zwroty"
+    }
+  },
+  "HOME": {
+    "HERO": {
+      "LABEL": "STUDIO TRÓJWYMIAROWYCH OBIEKTÓW",
+      "TITLE_TOP": "Obiekty, które",
+      "TITLE_GRAD": "chce się dotknąć",
+      "SUBTITLE": "Nie rysujemy obrazków — rzeźbimy materię. Modele 3D dla gier, marek i produktów, żyjące prosto w przeglądarce.",
+      "CTA_PRIMARY": "Zamów 3D",
+      "CTA_SECONDARY": "Zobacz katalog",
+      "HINT": "Dotykanie dozwolone — obróć obiekt"
+    },
+    "MANIFESTO": {
+      "LABEL": "MANIFEST",
+      "TEXT": "Płaskie się zapomina. Bryła zostaje. Zamieniamy pomysły w trójwymiarowe obiekty, które sprzedają, robią wrażenie i działają w czasie rzeczywistym."
+    },
+    "FEATURED": {
+      "LABEL": "WYBRANE PRACE",
+      "PRODUCT": "Produkt",
+      "INFO": "Info",
+      "ALL_WORKS": "Cały katalog"
+    },
+    "SERVICES": {
+      "LABEL": "CO ROBIMY",
+      "TITLE": "Każde zadanie ma swój wymiar",
+      "ITEMS": {
+        "MODELING": {
+          "TITLE": "Modelowanie 3D",
+          "DESC": "Hard-surface i organika: od szkicu po gotowy model z teksturami PBR i UV."
+        },
+        "PRODUCT": {
+          "TITLE": "Wizualizacja produktowa",
+          "DESC": "Fotorealistyczne rendery i interaktywne konfiguratory, które sprzedają lepiej niż zdjęcia."
+        },
+        "CHARACTERS": {
+          "TITLE": "Postacie i stworzenia",
+          "DESC": "Stylizowane i realistyczne postacie z riggingiem — gotowe do animacji i gier."
+        },
+        "WEB3D": {
+          "TITLE": "3D dla webu",
+          "DESC": "Lekkie, zoptymalizowane sceny na strony: Three.js, WebGL, stabilne 60 fps."
+        }
+      }
+    },
+    "PROCESS": {
+      "LABEL": "PROCES",
+      "TITLE": "Od briefu do modelu — trzy kroki",
+      "STEPS": {
+        "S1": {
+          "NUM": "01",
+          "TITLE": "Brief i koncept",
+          "DESC": "Omawiamy zadanie i zbieramy referencje. Po 48 godzinach masz koncept, moodboard i dokładną wycenę."
+        },
+        "S2": {
+          "NUM": "02",
+          "TITLE": "Modelowanie",
+          "DESC": "Rzeźbimy, teksturujemy, oświetlamy. Pokazujemy postępy co dwa-trzy dni — poprawki na bieżąco."
+        },
+        "S3": {
+          "NUM": "03",
+          "TITLE": "Finał i przekazanie",
+          "DESC": "Optymalizacja, eksport do wszystkich formatów, integracja ze stroną lub silnikiem. Pliki są Twoje na zawsze."
+        }
+      }
+    },
+    "STATS": {
+      "MODELS": "gotowych modeli",
+      "POLYGONS": "mln wyrzeźbionych poligonów",
+      "HOURS": "godzin do pierwszego konceptu",
+      "FPS": "fps w przeglądarce"
+    },
+    "CTA": {
+      "TITLE": "Twojemu projektowi brakuje wymiaru",
+      "SUBTITLE": "Napisz do nas — wrócimy z darmowym konceptem 3D w ciągu 48 godzin.",
+      "BUTTON": "Wyślij zapytanie"
+    },
+    "MARQUEE": "MODELOWANIE · WIZUALIZACJA · ANIMACJA · KONFIGURATORY · WEBGL · POSTACIE · LOW-POLY ·"
+  },
+  "WORKS": {
+    "TITLE": "Katalog obiektów",
+    "SUBTITLE": "Gotowe modele 3D z licencją. Każdy możesz obrócić tutaj — są prawdziwe.",
+    "COUNT": "obiektów: {{count}}",
+    "EMPTY": "W tej kategorii jest jeszcze pusto",
+    "CATEGORIES": {
+      "ALL": "Wszystkie",
+      "ART": "Art",
+      "TECH": "Technika",
+      "CHARACTER": "Postacie",
+      "ENVIRONMENT": "Otoczenie",
+      "ARCHITECTURE": "Architektura"
+    }
+  },
+  "PRODUCT": {
+    "IN_STOCK": "Dostępny · natychmiastowa dostawa plików",
+    "SPECS": "Specyfikacja",
+    "POLYCOUNT": "Poligony",
+    "FORMATS": "Formaty",
+    "TEXTURES": "Tekstury",
+    "RIGGED": "Rigging",
+    "ANIMATED": "Animacja",
+    "LICENSE": "Licencja",
+    "LICENSE_VALUE": "Komercyjna, bez tantiem",
+    "COLOR": "Kolor",
+    "FINISH": "Materiał",
+    "FINISHES": {
+      "GLOSS": "Połysk",
+      "MATTE": "Mat",
+      "CHROME": "Chrom",
+      "GOLD": "Złoto",
+      "GLASS": "Szkło"
+    },
+    "RELATED": "Podobne obiekty",
+    "YES": "Tak",
+    "NO": "Nie",
+    "DRAG_HINT": "Przeciągnij, aby obracać · kółko — zoom",
+    "NOT_FOUND": "Nie znaleziono obiektu"
+  },
+  "ORDER": {
+    "TITLE": "Zrobimy Twoje 3D",
+    "SUBTITLE": "Obiekt, postać, scena czy konfigurator — wyślij brief, a wrócimy z konceptem i dokładną ceną w ciągu 48 godzin.",
+    "CALC": {
+      "LABEL": "KALKULATOR",
+      "TITLE": "Oszacuj budżet",
+      "CATEGORY": "Typ obiektu",
+      "DETAIL": "Poziom detalu",
+      "DETAILS": {
+        "LOW": "Low-poly",
+        "MID": "Średni",
+        "HIGH": "High-poly"
+      },
+      "COUNT": "Obiektów",
+      "DEADLINE": "Termin, tygodnie",
+      "ESTIMATE": "Orientacyjnie",
+      "NOTE": "Ostateczna cena — po briefie. Zwykle różni się najwyżej o ±15%."
+    },
+    "FORM": {
+      "LABEL": "ZAPYTANIE",
+      "TITLE": "Wyślij zapytanie",
+      "NAME": "Imię",
+      "EMAIL": "Email",
+      "CONTACT": "Telegram lub telefon (opcjonalnie)",
+      "MESSAGE": "Co trzeba zrobić?",
+      "MESSAGE_PLACEHOLDER": "Opisz obiekt, styl, miejsce użycia, linki do referencji…",
+      "FILE": "Załącz referencję lub plik 3D",
+      "FILE_HINT": "GLB, GLTF, FBX, OBJ, STL — plik otworzy się w 3D tutaj",
+      "SUBMIT": "Wyślij zapytanie",
+      "SENDING": "Wysyłamy…",
+      "SUCCESS_TITLE": "Zapytanie poleciało!",
+      "SUCCESS_TEXT": "Odpowiemy w ciągu 48 godzin — zwykle dużo szybciej. Sprawdzaj skrzynkę.",
+      "ERROR": "Nie udało się wysłać. Spróbuj jeszcze raz.",
+      "REQUIRED": "Pole obowiązkowe",
+      "INVALID_EMAIL": "Nieprawidłowy email"
+    },
+    "FAQ": {
+      "LABEL": "PYTANIA",
+      "TITLE": "Częste pytania",
+      "ITEMS": {
+        "PRICE": {
+          "Q": "Ile kosztuje model 3D?",
+          "A": "Zależy od złożoności: obiekt low-poly — od 9 000 ₽, szczegółowy hard-surface — od 25 000 ₽, postać z riggingiem — od 60 000 ₽. Kalkulator powyżej da orientację, dokładną cenę podamy po briefie."
+        },
+        "TIME": {
+          "Q": "Jakie są terminy?",
+          "A": "Prosty obiekt — 3–5 dni, model produktowy — 1–2 tygodnie, postać lub scena — 2–4 tygodnie. Pierwszy koncept pokazujemy po 48 godzinach."
+        },
+        "FORMATS": {
+          "Q": "W jakich formatach oddajecie pliki?",
+          "A": "GLB/GLTF, FBX, OBJ, STL, BLEND — plus źródła tekstur. Dla webu dodatkowo optymalizujemy: kompresja Draco, tekstury KTX2."
+        },
+        "EDITS": {
+          "Q": "Ile poprawek wchodzi w cenę?",
+          "A": "Trzy rundy poprawek w cenie. Pokazujemy postępy co dwa-trzy dni, więc poprawki są zwykle drobne i szybkie."
+        },
+        "RIGHTS": {
+          "Q": "Do kogo należą prawa?",
+          "A": "Do Ciebie. Po opłacie przekazujemy pełne prawa komercyjne bez tantiem. Model z katalogu można wykorzystywać w dowolnych projektach."
+        }
+      }
+    }
+  },
+  "LAB": {
+    "TITLE": "Laboratorium 3D",
+    "SUBTITLE": "Przeciągnij swój plik — GLB, GLTF, FBX, OBJ lub STL — i obejrzyj go ze wszystkich stron. Wszystko dzieje się lokalnie, plik nigdzie nie jest wysyłany.",
+    "DROP": "Upuść plik 3D tutaj",
+    "OR": "lub",
+    "BROWSE": "Wybierz plik",
+    "DEMO": "Modele demo",
+    "SETTINGS": {
+      "TITLE": "Scena",
+      "ENV": "Otoczenie",
+      "WIREFRAME": "Siatka",
+      "AUTOROTATE": "Autoobrót",
+      "GRID": "Podłoga",
+      "SHADOWS": "Cienie"
+    },
+    "ENVS": {
+      "STUDIO": "Studio",
+      "NIGHT": "Noc",
+      "NEON": "Neon",
+      "SUNSET": "Zachód słońca"
+    },
+    "STATS": {
+      "TITLE": "Model",
+      "VERTICES": "Wierzchołki",
+      "TRIANGLES": "Trójkąty",
+      "MESHES": "Meshe",
+      "MATERIALS": "Materiały",
+      "SIZE": "Rozmiar",
+      "FORMAT": "Format"
+    },
+    "SCREENSHOT": "Zrzut ekranu",
+    "RESET_VIEW": "Resetuj kamerę",
+    "ERROR_FORMAT": "Ten format nie jest obsługiwany. Użyj GLB, GLTF, FBX, OBJ lub STL.",
+    "ERROR_LOAD": "Nie udało się odczytać modelu — plik jest uszkodzony lub format jest niestandardowy.",
+    "PRIVACY": "Plik jest przetwarzany lokalnie w Twojej przeglądarce i nigdzie nie jest wysyłany."
+  },
+  "CART": {
+    "TITLE": "Koszyk",
+    "EMPTY": "Na razie pusto",
+    "EMPTY_HINT": "Zajrzyj do katalogu — jest tam pięknie",
+    "TOTAL": "Razem",
+    "CHECKOUT": "Do kasy",
+    "REMOVE": "Usuń",
+    "CHECKOUT_TITLE": "Składanie zamówienia",
+    "CHECKOUT_NOTE": "Podaj dane kontaktowe — otworzy się płatność kartą albo wyślemy fakturę na email.",
+    "SUCCESS_TITLE": "Zamówienie przyjęte!",
+    "SUCCESS_TEXT": "Zamówienie przyjęte! Skontaktujemy się z Tobą mailowo i przekażemy pliki oraz szczegóły płatności.",
+    "PAY": "Potwierdź zamówienie"
+  },
+  "PRODUCTS": {
+    "CHROME_TORUS": {
+      "NAME": "Chromowy węzeł",
+      "DESC": "Bezszwowy węzeł torusa w płynnym chromie. Hipnotyzuje w sekcjach hero, na okładkach i w intrach."
+    },
+    "NEBULA_CRYSTAL": {
+      "NAME": "Kryształ „Nebula”",
+      "DESC": "Fasetowany kryształ z załamaniem światła jak w prawdziwym szkle. Luksus dla brandingu i nagród."
+    },
+    "LIQUID_BLOB": {
+      "NAME": "Płynny metal",
+      "DESC": "Żywa kropla metalu, która oddycha i mieni się. Idealne tło dla odważnych landingów."
+    },
+    "LOWPOLY_PLANET": {
+      "NAME": "Planeta „Terra-9”",
+      "DESC": "Low-poly planeta z pierścieniami i księżycem. Gotowa do gier, dashboardów i kosmicznych historii."
+    },
+    "CYBER_HELMET": {
+      "NAME": "Cyberhełm „Ronin”",
+      "DESC": "Hełm w duchu cyberpunku z neonowym wizjerem. Zbudowany z precyzyjnych form hard-surface."
+    },
+    "BAUHAUS_COLUMN": {
+      "NAME": "Kolumna „Bauhaus”",
+      "DESC": "Architektoniczna kompozycja z czystych form geometrycznych. Surowa jak manifest."
+    },
+    "SPIRAL_SCULPT": {
+      "NAME": "Spirala „Fibonacci”",
+      "DESC": "Parametryczna spirala według złotego podziału. Matematyka, na którą chce się patrzeć."
+    },
+    "MECH_DRONE": {
+      "NAME": "Dron „Osa”",
+      "DESC": "Kompaktowy dron bojowy z ruchomymi wirnikami. Mecha-design czytelny z każdego ujęcia."
+    },
+    "ABSTRACT_WAVE": {
+      "NAME": "Fala „Amper”",
+      "DESC": "Pole pulsujących fal — żywe tło reagujące na czas. Czysty klimat synthwave."
+    },
+    "GOLDEN_SHELL": {
+      "NAME": "Złota muszla",
+      "DESC": "Parametryczna muszla w polerowanym złocie. Naturalna forma odlana w metalu."
+    }
+  },
+  "ADMIN": {
+    "NAV": {
+      "ORDERS": "Zamówienia",
+      "PRODUCTS": "Katalog",
+      "STATS": "Statystyki",
+      "SETTINGS": "Ustawienia",
+      "LOGOUT": "Wyloguj"
+    },
+    "LOGIN": {
+      "LABEL": "PANEL ADMINA",
+      "TITLE": "Logowanie",
+      "EMAIL": "Email",
+      "PASSWORD": "Hasło",
+      "SUBMIT": "Zaloguj",
+      "ERROR_AUTH": "Nieprawidłowy email lub hasło",
+      "ERROR_GENERIC": "Nie udało się zalogować. Spróbuj jeszcze raz."
+    },
+    "ORDERS": {
+      "TITLE": "Zamówienia",
+      "ALL": "Wszystkie",
+      "EMPTY": "Na razie brak zamówień",
+      "TH_ID": "ID",
+      "TH_KIND": "Typ",
+      "TH_NAME": "Imię",
+      "TH_EMAIL": "Email",
+      "TH_TOTAL": "Kwota",
+      "TH_STATUS": "Status",
+      "TH_DATE": "Data",
+      "STATUS_UPDATED": "Status zaktualizowany",
+      "STATUS_FAILED": "Nie udało się zaktualizować statusu",
+      "LOAD_FAILED": "Nie udało się załadować zamówień"
+    },
+    "KIND": {
+      "CUSTOM": "Indywidualne",
+      "CHECKOUT": "Checkout"
+    },
+    "STATUS": {
+      "NEW": "Nowe",
+      "PAID": "Opłacone",
+      "IN_PROGRESS": "W realizacji",
+      "DONE": "Gotowe",
+      "CANCELLED": "Anulowane"
+    },
+    "PRODUCTS": {
+      "TITLE": "Katalog",
+      "ADD": "Nowy produkt",
+      "EMPTY": "Na razie brak produktów",
+      "TH_KEY": "Klucz",
+      "TH_CATEGORY": "Kategoria",
+      "TH_PRICE": "Cena",
+      "TH_OLD_PRICE": "Stara cena",
+      "TH_FEATURED": "Wyróżniony",
+      "TH_ACTIONS": "Akcje",
+      "CREATE_TITLE": "Nowy produkt",
+      "EDIT_TITLE": "Edytuj produkt",
+      "DELETE_TITLE": "Usunąć produkt?",
+      "DELETE_TEXT": "Produkt „{{key}}” zostanie usunięty na zawsze. Tej operacji nie można cofnąć.",
+      "FIELD_KEY": "Klucz (i18n)",
+      "FIELD_CATEGORY": "Kategoria",
+      "FIELD_PRICE": "Cena, ₽",
+      "FIELD_OLD_PRICE": "Stara cena, ₽",
+      "FIELD_FEATURED": "Pokazuj jako wyróżniony",
+      "EDIT": "Edytuj",
+      "DELETE": "Usuń",
+      "SAVE": "Zapisz",
+      "CREATE": "Utwórz",
+      "CONFIRM_DELETE": "Usuń",
+      "CREATED": "Produkt utworzony",
+      "SAVED": "Produkt zapisany",
+      "DELETED": "Produkt usunięty",
+      "SAVE_FAILED": "Nie udało się zapisać produktu",
+      "DELETE_FAILED": "Nie udało się usunąć produktu",
+      "INVALID": "Uzupełnij klucz i cenę"
+    },
+    "STATS": {
+      "TITLE": "Statystyki",
+      "TOTAL": "Wszystkich zamówień",
+      "NEW": "Nowych",
+      "REVENUE": "Przychód (opłacone)",
+      "CUSTOM": "Zapytań indywidualnych",
+      "CHECKOUT": "Checkoutów",
+      "LOAD_FAILED": "Nie udało się załadować statystyk"
+    },
+    "SETTINGS": {
+      "TITLE": "Ustawienia",
+      "STATUS_TITLE": "Status Stripe",
+      "ROW_MODE": "Tryb",
+      "ROW_ACCOUNT": "Konto",
+      "ROW_KEY": "Klucz tajny",
+      "ROW_WEBHOOK": "Webhook",
+      "MODE_MOCK": "Tryb mock",
+      "MODE_TEST": "Test",
+      "MODE_LIVE": "Live",
+      "WEBHOOK_ON": "Skonfigurowany",
+      "WEBHOOK_OFF": "Nieskonfigurowany",
+      "FORM_TITLE": "Podłączenie Stripe",
+      "FIELD_KEY": "Klucz tajny (sk_test_...)",
+      "FIELD_WEBHOOK": "Sekret webhooka (whsec_..., opcjonalnie)",
+      "SUBMIT": "Sprawdź i podłącz",
+      "ERROR_INVALID_KEY": "Stripe nie przyjął tego klucza. Upewnij się, że skopiowano cały klucz tajny — zaczyna się od sk_test_ lub sk_live_.",
+      "CONNECTED": "Stripe podłączony",
+      "SAVE_FAILED": "Nie udało się zapisać ustawień Stripe",
+      "LOAD_FAILED": "Nie udało się załadować ustawień",
+      "DISCONNECT": "Odłącz Stripe",
+      "DISCONNECT_TITLE": "Odłączyć Stripe?",
+      "DISCONNECT_TEXT": "Klucze zostaną usunięte, a płatności wrócą do trybu mock. Stripe można podłączyć ponownie w każdej chwili.",
+      "CONFIRM_DISCONNECT": "Odłącz",
+      "DISCONNECTED": "Stripe odłączony",
+      "DISCONNECT_FAILED": "Nie udało się odłączyć Stripe",
+      "HINT_TITLE": "Skąd wziąć klucze",
+      "HINT_KEYS": "Klucz tajny i sekret webhooka znajdziesz w Stripe Dashboard:",
+      "HINT_WEBHOOK": "W ustawieniach webhooka w Stripe Dashboard podaj ten URL:",
+      "COPY": "Kopiuj URL webhooka"
+    },
+    "COMMON": {
+      "YES": "Tak",
+      "NO": "Nie"
+    }
+  },
+  "TOASTS": {
+    "ADDED_TO_CART": "Dodano do koszyka: {{name}}",
+    "ORDER_SENT": "Zapytanie wysłane!",
+    "ORDER_FAILED": "Nie udało się wysłać zamówienia. Spróbuj jeszcze raz albo napisz do nas na email",
+    "CHECKOUT_DONE": "Zamówienie złożone!",
+    "SCREENSHOT_SAVED": "Zrzut ekranu zapisany",
+    "MODEL_LOADED": "Model załadowany: {{name}}",
+    "PAYMENT_SUCCESS": "Płatność przyjęta! Wkrótce napiszemy do Ciebie na email.",
+    "PAYMENT_CANCEL": "Płatność anulowana",
+    "COPIED": "Skopiowano"
+  },
+  "NOT_FOUND": {
+    "TITLE": "404 — nie znaleziono obiektu",
+    "TEXT": "Takiej strony nie ma. Jest za to katalog, w którym wszystko się kręci.",
+    "BUTTON": "Do katalogu"
+  },
+  "META": {
+    "HOME_TITLE": "FORMA³ — modele 3D na zamówienie dla gier, marek i produktów",
+    "HOME_DESC": "Studio modelowania 3D FORMA³: modele 3D na zamówienie — postacie, hard-surface, wizualizacja produktowa, WebGL. Koncept w 48 godzin, od 9 000 ₽.",
+    "WORKS_TITLE": "Katalog modeli 3D — gotowe prace studia FORMA³",
+    "WORKS_DESC": "Gotowe modele 3D z licencją komercyjną: GLB, FBX, OBJ. Obracaj każdy model prosto w przeglądarce. Potrzebujesz unikalnego? Zrobimy na zamówienie.",
+    "ORDER_TITLE": "Zamów model 3D — cena i termin w 48 godzin | FORMA³",
+    "ORDER_DESC": "Zamów model 3D pod swój projekt: gry, reklama, AR/VR, druk 3D. Kalkulator ceny online, brief w 5 minut, koncept w 48 godzin. Od 9 000 ₽.",
+    "LAB_TITLE": "Przeglądarka 3D online — GLB, FBX, OBJ, STL | FORMA³",
+    "LAB_DESC": "Darmowa przeglądarka plików 3D online: GLB, GLTF, FBX, OBJ, STL. Wszystko działa lokalnie w przeglądarce — pliki nie opuszczają Twojego urządzenia.",
+    "PRODUCT_TITLE": "{{name}} — kup model 3D | FORMA³",
+    "PRODUCT_DESC": "{{name}}: model 3D z licencją komercyjną. Formaty GLB, FBX, OBJ. Obejrzyj w 3D prosto w przeglądarce.",
+    "NOT_FOUND_TITLE": "Nie znaleziono strony | FORMA³"
+  }
+}

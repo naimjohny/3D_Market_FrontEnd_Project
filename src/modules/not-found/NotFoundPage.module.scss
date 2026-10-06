@@ -1,0 +1,55 @@
+/** Стили 404: центрированная секция, контурный код поверх приглушённой 3D-сцены. */
+
+@use '@styles/layout' as *;
+@use '@styles/typography' as *;
+
+.page {
+  @extend %page;
+  display: flex;
+}
+
+.inner {
+  @extend %container;
+  @extend %section;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.stage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: min(72vw, 420px);
+  aspect-ratio: 1;
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-16);
+  text-align: center;
+}
+
+.code {
+  @extend %display;
+  font-size: var(--fs-hero);
+  color: transparent;
+  -webkit-text-stroke: 2px var(--text-dim);
+}
+
+.action {
+  margin-top: var(--space-8);
+}

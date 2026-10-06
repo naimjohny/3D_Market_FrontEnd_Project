@@ -1,0 +1,104 @@
+/** Стили панели продукта: цена, точка наличия, свотчи цвета, окружение и кнопка корзины. */
+
+@use '@styles/mixins' as *;
+@use '@styles/typography' as *;
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.category {
+  display: flex;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-12);
+}
+
+.price {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--fs-h3);
+  line-height: 1;
+}
+
+.oldPrice {
+  @extend %mono-value;
+  color: var(--text-dim);
+  text-decoration: line-through;
+}
+
+.stock {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+}
+
+.stockDot {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-full);
+  background: var(--success);
+  box-shadow: 0 0 12px var(--success);
+}
+
+.desc {
+  color: var(--text-muted);
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  margin-top: var(--space-8);
+}
+
+.blockLabel {
+  @extend %mono-label;
+  font-size: var(--fs-xs);
+}
+
+.swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-12);
+}
+
+.swatch {
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-full);
+  background: var(--swatch);
+  cursor: pointer;
+  transition:
+    transform var(--dur-fast) var(--ease-expo),
+    box-shadow var(--dur-fast) var(--ease-expo);
+
+  @include focus-ring;
+
+  &:hover {
+    transform: scale(1.08);
+  }
+}
+
+.swatchActive {
+  box-shadow:
+    0 0 0 2px var(--bg),
+    0 0 0 4px var(--accent-bright);
+}
+
+.envs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
+.cart {
+  margin-top: var(--space-8);
+}

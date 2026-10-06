@@ -1,0 +1,48 @@
+/** Стили вьювера продукта: рамка с пропорцией под сцену и HUD-углы поверх канваса. */
+
+@use '@styles/breakpoints' as *;
+@use '@styles/layout' as *;
+
+.viewer {
+  @extend %viewer-frame;
+  aspect-ratio: 1 / 1.2;
+  max-height: 70vh;
+
+  @include from(laptop) {
+    aspect-ratio: 1 / 1.05;
+    max-height: none;
+  }
+}
+
+.stage {
+  position: absolute;
+  inset: 0;
+}
+
+.hud {
+  position: absolute;
+  z-index: var(--z-content);
+  pointer-events: none;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+.hudName {
+  top: var(--space-16);
+  left: var(--space-16);
+}
+
+.hudPoly {
+  top: var(--space-16);
+  right: var(--space-16);
+}
+
+.hudHint {
+  bottom: var(--space-16);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}

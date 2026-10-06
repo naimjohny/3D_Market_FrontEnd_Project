@@ -1,0 +1,19 @@
+/** Стили секции FAQ: вертикальный ритм секции и ограниченная ширина колонки вопросов. */
+
+@use '@styles/layout' as *;
+
+.section {
+  @extend %section;
+}
+
+.container {
+  @extend %container;
+}
+
+.inner {
+  max-width: 880px;
+}
+
+.head {
+  @extend %section-head;
+}

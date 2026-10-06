@@ -1,0 +1,42 @@
+/** Стили секции процесса: три шага с контурными номерами и верхними разделителями. */
+
+@use '@styles/breakpoints' as *;
+@use '@styles/layout' as *;
+
+.process {
+  @extend %container;
+  @extend %section;
+}
+
+.head {
+  @extend %section-head;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-32);
+
+  @include from(laptop) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-48);
+  }
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-16);
+  border-top: 1px solid var(--border);
+  padding-top: var(--space-24);
+}
+
+.num {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--fs-h1);
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-dim);
+}

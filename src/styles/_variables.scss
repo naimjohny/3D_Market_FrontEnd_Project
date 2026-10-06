@@ -1,0 +1,83 @@
+/** Дизайн-токены FORMA³: тёмная тема, электрик-синий акцент, тёплый градиент. */
+
+:root {
+  --bg: #0a0a0c;
+  --bg-deep: #050508;
+  --surface: #101016;
+  --surface-2: #16161f;
+  --surface-3: #1d1d28;
+  --surface-glass: rgba(16, 16, 22, 0.72);
+
+  --text: #e9edf5;
+  --text-muted: #8b90a3;
+  --text-dim: #565b6b;
+  --text-invert: #0a0a0c;
+
+  --accent: #2c1aff;
+  --accent-hover: #4433ff;
+  --accent-bright: #6c5ce7;
+  --accent-soft: rgba(108, 92, 231, 0.16);
+  --accent-glow: rgba(44, 26, 255, 0.35);
+
+  --warm: #ffa502;
+  --hot: #ff5f7e;
+  --violet: #a29bfe;
+  --success: #2ed573;
+  --danger: #ff4757;
+
+  --grad-warm: linear-gradient(92deg, var(--warm) 0%, var(--hot) 48%, var(--violet) 100%);
+  --grad-accent: linear-gradient(92deg, var(--accent-hover) 0%, var(--accent-bright) 55%, var(--violet) 100%);
+
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+
+  --font-display: 'Unbounded Variable', system-ui, sans-serif;
+  --font-body: 'Inter Variable', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, monospace;
+
+  --fs-hero: clamp(2.4rem, 7.4vw, 6.6rem);
+  --fs-h1: clamp(2rem, 5.6vw, 4.6rem);
+  --fs-h2: clamp(1.6rem, 4vw, 3.1rem);
+  --fs-h3: clamp(1.2rem, 2.4vw, 1.8rem);
+  --fs-h4: clamp(1.05rem, 1.6vw, 1.25rem);
+  --fs-body-lg: clamp(1.02rem, 1.35vw, 1.3rem);
+  --fs-body: 1rem;
+  --fs-sm: 0.875rem;
+  --fs-xs: 0.75rem;
+  --fs-mono: 0.8125rem;
+
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --space-96: 96px;
+  --space-128: 128px;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 999px;
+
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-fast: 0.25s;
+  --dur-med: 0.55s;
+  --dur-slow: 0.9s;
+
+  --page-pad: clamp(16px, 4vw, 48px);
+  --container-max: 1680px;
+  --header-h: 72px;
+
+  --z-canvas: 0;
+  --z-content: 2;
+  --z-header: 100;
+  --z-drawer: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+  --z-cursor: 500;
+  --z-preloader: 600;
+}

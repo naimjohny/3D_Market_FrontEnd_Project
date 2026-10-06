@@ -1,0 +1,144 @@
+/** Стили лейаута админки: верхняя панель на мобилке, фиксированный сайдбар на десктопе. */
+
+@use '@styles/breakpoints' as *;
+@use '@styles/mixins' as *;
+
+.shell {
+  position: relative;
+  z-index: var(--z-content);
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  background: var(--bg);
+
+  @include from(laptop) {
+    flex-direction: row;
+  }
+}
+
+.sidebar {
+  @include hide-scrollbar;
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+  padding: var(--space-12) var(--page-pad);
+  overflow-x: auto;
+  background: var(--bg-deep);
+  border-bottom: 1px solid var(--border);
+
+  @include from(laptop) {
+    flex-direction: column;
+    align-items: stretch;
+    flex-shrink: 0;
+    width: 248px;
+    height: 100dvh;
+    padding: var(--space-24);
+    overflow: hidden;
+    border-bottom: 0;
+    border-right: 1px solid var(--border);
+  }
+}
+
+.brand {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  white-space: nowrap;
+
+  @include from(laptop) {
+    margin-bottom: var(--space-32);
+  }
+}
+
+.brandSup {
+  color: var(--accent-bright);
+}
+
+.brandTag {
+  margin-inline-start: var(--space-8);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  color: var(--text-muted);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+
+  @include from(laptop) {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.link {
+  @include focus-ring;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8);
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: var(--fs-mono);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  white-space: nowrap;
+  transition:
+    color var(--dur-fast) var(--ease-expo),
+    background-color var(--dur-fast) var(--ease-expo);
+
+  &:hover {
+    color: var(--text);
+    background: var(--surface-2);
+  }
+}
+
+.active,
+.active:hover {
+  color: var(--text);
+  background: var(--accent-soft);
+}
+
+.logout {
+  @include focus-ring;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8);
+  margin-inline-start: auto;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: var(--fs-mono);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color var(--dur-fast) var(--ease-expo);
+
+  &:hover {
+    color: var(--danger);
+  }
+
+  @include from(laptop) {
+    margin-inline-start: 0;
+    margin-block-start: auto;
+  }
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+  padding: clamp(24px, 4vw, 48px) var(--page-pad) var(--space-96);
+}

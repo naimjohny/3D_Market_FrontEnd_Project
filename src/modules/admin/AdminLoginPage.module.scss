@@ -1,0 +1,23 @@
+/** Стили страницы входа: тёмный полноэкранный центр и карточка формы на поверхности. */
+
+@use '@styles/layout' as *;
+
+.page {
+  position: relative;
+  z-index: var(--z-content);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  padding: var(--page-pad);
+  background: var(--bg);
+}
+
+.card {
+  @extend %surface-card;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  width: min(420px, 100%);
+  padding: clamp(24px, 5vw, 40px);
+}

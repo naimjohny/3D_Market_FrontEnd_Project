@@ -1,0 +1,44 @@
+/** Стили селекта: композиция оформления Input, скрытая нативная стрелка, иконка справа. */
+
+.field {
+  composes: field from '../Input/Input.module.scss';
+}
+
+.label {
+  composes: label from '../Input/Input.module.scss';
+}
+
+.hiddenLabel {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.wrap {
+  position: relative;
+  width: 100%;
+}
+
+.control {
+  composes: input from '../Input/Input.module.scss';
+  appearance: none;
+  padding-right: var(--space-48);
+  cursor: pointer;
+
+  option {
+    background: var(--surface-2);
+    color: var(--text);
+  }
+}
+
+.chevron {
+  position: absolute;
+  top: 50%;
+  right: var(--space-16);
+  translate: 0 -50%;
+  pointer-events: none;
+  color: var(--text-muted);
+}

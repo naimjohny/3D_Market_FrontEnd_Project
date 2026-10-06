@@ -1,0 +1,19 @@
+/** Стили HUD-лейбла: моно-типографика и светящаяся точка перед текстом. */
+
+@use '@styles/typography' as *;
+
+.label {
+  @extend %mono-label;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  &::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--accent-bright);
+  }
+}

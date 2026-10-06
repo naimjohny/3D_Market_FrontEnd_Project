@@ -1,0 +1,35 @@
+/** Стили секции статистики: сетка счётчиков 2/4 с бордерами-разделителями. */
+
+@use '@styles/breakpoints' as *;
+@use '@styles/layout' as *;
+
+.stats {
+  @extend %container;
+  @extend %section;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @include from(laptop) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid var(--border);
+  padding: clamp(24px, 4vw, 48px) var(--space-16);
+
+  &:nth-child(even) {
+    border-left: 1px solid var(--border);
+  }
+
+  @include from(laptop) {
+    &:not(:first-child) {
+      border-left: 1px solid var(--border);
+    }
+  }
+}

@@ -1,0 +1,54 @@
+/** Стили тостера: фиксированный стек снизу, стеклянные капсулы с цветной иконкой по типу. */
+
+@use '@styles/breakpoints' as *;
+@use '@styles/layout' as *;
+
+.stack {
+  position: fixed;
+  right: var(--space-16);
+  bottom: var(--space-24);
+  left: var(--space-16);
+  z-index: var(--z-toast);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  pointer-events: none;
+
+  @include from(tablet) {
+    right: var(--space-24);
+    left: auto;
+    width: min(360px, 100vw);
+  }
+}
+
+.toast {
+  @extend %glass;
+
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+  padding: 14px 18px;
+  border-radius: var(--radius-md);
+  pointer-events: auto;
+
+  .message {
+    font-size: var(--fs-sm);
+  }
+}
+
+.icon {
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+.success {
+  color: var(--success);
+}
+
+.error {
+  color: var(--danger);
+}
+
+.info {
+  color: var(--accent-bright);
+}

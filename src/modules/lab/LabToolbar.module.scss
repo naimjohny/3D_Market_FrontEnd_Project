@@ -1,0 +1,39 @@
+/** Стили панели лаборатории: вертикальные блоки, моно-лейблы и обёртки чипов. */
+
+@use '@styles/typography' as *;
+
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.label {
+  @extend %mono-label;
+}
+
+.subLabel {
+  @extend %mono-label;
+  font-size: var(--fs-xs);
+  color: var(--text-dim);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
+.fileInput {
+  display: none;
+}
+
+.privacy {
+  font-size: var(--fs-xs);
+}
